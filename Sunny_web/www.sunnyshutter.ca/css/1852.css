@@ -1,0 +1,1754 @@
+@charset "utf-8";
+*{ margin:0; padding:0; outline:none;}
+body{margin:0;padding:0;box-sizing:border-box;-ms-word-wrap:break-word;word-wrap:break-word;line-height:22px;margin:0;padding:0;color:#898787;font-size:14px;font-family:'Karla';background-color:#ffffff;}
+img{margin:0;padding:0;border:none;}
+.bypostauthor{margin:0;padding:0;}
+section img, img{max-width:100%;height:auto;display:block}
+h1,h2,h3,h4,h5,h6{margin:0 0 20px;padding:0;line-height:1;font-weight:700;}
+h1{font-size:35px;}
+h2{font-size:30px;}
+h3{font-size:20px;}
+h4{font-size:16px;}
+h5{font-size:15px;}
+h6{font-size:14px;}
+.left{float:left;}
+.right{float:right;}
+blockquote{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/icon_quote.html) no-repeat 16% 16%;padding:15px 15px 15px 50px !important;font-style:italic;color:#888;font-size:14px;line-height:1.5;}
+.hr{border-bottom:1px solid #333; height:15px; clear:both;}
+p{ margin:0; padding:0;}
+a{text-decoration:none;outline:none;transition:0.6s;-moz-transition:0.6s;-webkit-transition:0.6s;-o-transition:0.6s;}
+a:hover{text-decoration:none;outline:none;}
+ul{list-style:none;margin:0;padding:0;}
+article ul, article ol{margin:0 0 15px 15px;}
+article ul li{list-style:disc;}
+.custom-height{min-height:20px;}
+.clear{clear:both;}
+.middle-align{margin:0 auto;padding:0;}
+.wp-caption{margin:0;padding:0;font-size:13px;max-width:100%;}
+.wp-caption-text{margin:0;padding:0;}
+.sticky{margin:0;padding:0;}
+.gallery-caption{margin:0;padding:0;}
+.alignleft, img.alignleft{display:inline;float:left;margin-right:25px;margin-top:4px;margin-bottom:6px;padding:0;height:auto;}
+.alignright, img.alignright{display:inline;float:right;margin-left:25px;height:auto;}
+.aligncenter, img.aligncenter{clear:both;display:block;margin-left:auto;margin-right:auto;margin-top:0;height:auto;}
+.comments-area{margin-bottom:15px;}
+.comment-list .comment-content ul{list-style:none;margin-left:15px;}
+.comment-list .comment-content ul li{margin:5px;}
+.main-container ol{list-style-position:outside;margin-left:20px;}
+.main-container ol li{margin:5px 0;}
+.lastcols{margin-right:0 !important;}
+.toggleMenu{display:none;}
+section{padding:60px 0;}
+h2.section_title{font-weight:700;font-size:25px;text-transform:uppercase;text-align:center;padding-bottom:20px;color:#444444;line-height:44px;font-family:'Montserrat';margin-bottom:30px;position:relative;}
+h2.section_title p{font:400 14px 'Karla';text-transform:none;}
+h2.section_title::after{content:"";position:absolute;bottom:0;left:0;right:0;margin:0 auto;width:67px;height:3px;background-color:#c49454;}
+.headerinfo{font:600 14px/22px 'Montserrat';padding:10px 0;}
+#slider{width:100%;margin:0;padding:0;position:relative;}
+.logo{float:left;text-align:left;padding:0;}
+.logo h1{font-weight:700;margin:0px;text-transform:uppercase;}
+.logo a{color:#ffffff;}
+.tagline{font-family:'Montserrat';font-size:13px;color:#483b33;display:block;}
+.header_right{float:right;text-align:right;}
+.header-top{color:#c1a994;line-height:36px;font-size:14px;font-weight:500;font-family:'Karla';text-transform:uppercase;}
+.headtop-inner{width:1170px;margin:0 auto;position:relative;}
+.header-top .left{padding:6px 0;}
+.header-top .left .fa{margin-right:10px;font-size:1em;}
+.header-top .right{text-align:right;padding:5px 0;}
+.header-top .right .social-icons{float:left;margin-right:10px;}
+.social-icons a{width:35px;height:35px;line-height:35px;text-align:center;vertical-align:middle;display:table-cell;padding:0;transition:0.6s;-moz-transition:0.6s;-webkit-transition:0.6s;-o-transition:0.6s;font-size:14px;color:#c1a994;}
+.social-icons a:hover{color:#e7b573;}
+.social-icons br{display:none;}
+.container{width:1170px;margin:0 auto;position:relative;}
+.header.fixed{position:fixed;top:0;z-index:999999;padding:14px 25px;}
+.header{width:100%;position:relative;background-color:#584632;padding:24px 0 50px;}
+.header.contacthead{background-color:#584632;}
+.header-inner{width:1170px;margin:0 auto;position:relative;}
+.right-box{float:right;width:250px;}
+.hright-icon, .hright-content{float:left;text-align:left;}
+.hright-icon{width:43px;height:44px;border:1px solid #aca399;line-height:46px;text-align:center;font-size:24px;margin-right:15px;color:#c49454;}
+.hright-content span{display:block;}
+.hright-content{margin-top:6px;}
+.hright-content a{color:#b59a77;}
+.hright-content span.bold-text{font:700 16px 'Montserrat';color:#ffffff;}
+.hright-content span.small-text{font:400 13px 'Montserrat';color:#b59a77;}
+.navigation{position:absolute;background-color:#c49454;left:0;right:0;z-index:6;top:75px;-ms-transform:skewX(-15deg);-webkit-transform:skewX(-15deg);transform:skewX(-15deg);padding-left:15px;}
+#headernav{border-top:1px solid #1c1006;border-bottom:1px solid #1c1006;}
+.toggle{display:block;}
+.toggle a{width:auto;color:#ffffff;background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/mobile_nav_right.html) no-repeat right center #0e2d45;padding:10px 25px;margin-top:5px;font-size:16px;text-align:left;}
+.toggle a:hover{color:#ffffff !important;}
+.sitenav{padding:0;position:relative;z-index:9999;float:left;}
+.sitenav ul{margin:0;padding:0;font-family:'Montserrat';font-size:15px;font-weight:700;text-transform:uppercase;}
+.sitenav ul li{display:table-cell;position:relative;}
+.sitenav ul li a{padding:20px 15px;display:block;text-align:center;transition:0.6s;-moz-transition:0.6s;-webkit-transition:0.6s;-o-transition:0.6s;-ms-transform:skewX(15deg);-webkit-transform:skewX(15deg);transform:skewX(15deg);}
+.sitenav ul li ul li{display:block;position:relative;float:none;top:1px;border-bottom:1px #000000 solid;}
+.sitenav ul li ul li a{display:block;padding-top:7px;padding-bottom:7px;position:relative;top:0;text-align:left;-ms-transform:skewX(0deg);-webkit-transform:skewX(0deg);transform:skewX(0deg);}
+.sitenav ul li a:hover, .sitenav ul li.current_page_item a, .sitenav ul li:hover a.parent{color:#493a2d;}
+.sitenav ul li ul.sub-menu li a:hover, .sitenav ul li.current_page_item ul.sub-menu li a:hover, .sitenav ul li ul.sub-menu li.current_page_item a{background-color:transparent;}
+.sitenav ul li ul{display:none;z-index:9999;position:relative;}
+.sitenav ul li:hover > ul{display:block;width:200px;position:absolute;left:0;top:62px;text-align:left;-ms-transform:skewX(15deg);-webkit-transform:skewX(15deg);transform:skewX(15deg);}
+.sitenav ul li:hover ul li ul{display:none;position:relative;}
+.sitenav ul li:hover ul li:hover > ul{display:block;position:absolute;left:200px;top:-1px;}
+.get_a_quote{float:right;position:relative;right:-1px;text-transform:uppercase;background-color:#96723e;transition:0.6s;-moz-transition:0.6s;-webkit-transition:0.6s;-o-transition:0.6s;}
+.get_a_quote a{-ms-transform:skewX(15deg);-webkit-transform:skewX(15deg);transform:skewX(15deg);display:block;font:700 15px 'Montserrat';padding:0 35px;line-height:65px;color:#ffffff;}
+.get_a_quote a:hover{color:#96723e;}
+.get_a_quote:hover{background-color:#ffffff;}
+.innerbanner{text-align:center;height:300px;overflow:hidden;}
+.innerbanner img{position:relative;background-size:cover;width:100%;height:auto;}
+.searchbox{position:relative;min-width:35px;width:0%;height:40px;float:right;overflow:hidden;padding-left:20px;-webkit-transition:width 0.3s;-moz-transition:width 0.3s;-ms-transition:width 0.3s;-o-transition:width 0.3s;transition:width 0.3s;}
+.searchbox-input{top:0;right:0;border:0;outline:0;background:#ece8e8;width:100%;height:40px;margin:0;padding:0px 55px 0px 20px;font-size:13px;color:#7f7f7f;}
+.searchbox-input::-webkit-input-placeholder{color:#7f7f7f;}
+.searchbox-input:-moz-placeholder{color:#7f7f7f;}
+.searchbox-input::-moz-placeholder{color:#7f7f7f;}
+.searchbox-input:-ms-input-placeholder{color:#7f7f7f;}
+.searchbox-icon, .searchbox-submit{width:35px;height:40px;display:block;position:absolute;top:0;font-family:verdana;font-size:22px;right:0;padding:0 !important;margin:0 !important;border:0 !important;outline:0;line-height:40px;text-align:center;cursor:pointer;color:#dcddd8;background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/search-icon.html) no-repeat center center #34c6f6;}
+.searchbox-open{width:40%;}
+a.ReadMore{font:400 14px/22px 'Montserrat';color:#c49454;padding:5px 0;text-transform:capitalize;transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-webkit-transition:all 0.5s ease 0s;}
+a.ReadMore:hover{color:#69af07;}
+.custombtn{margin-top:30px;}
+a.morebutton{background-color:#f0d4bc;color:#42332c;padding:17px 30px;font:500 14px/20px 'Montserrat';text-transform:uppercase;display:inline-block;border-radius:5px;transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-webkit-transition:all 0.5s ease 0s;}
+a.morebutton:hover{background-color:#42332c;color:#ffffff;}
+a.buttonstyle1{border:2px solid #3f3f3f;color:#3f3f3f;padding:10px 30px;font:500 13px/20px 'Montserrat';display:inline-block;transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-webkit-transition:all 0.5s ease 0s;}
+a.buttonstyle1:hover{border:2px solid #69af07;color:#69af07;}
+a.button{background-color:#ffffff;color:#282828;padding:12px 30px;font:500 13px/20px 'Montserrat';display:inline-block;transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-webkit-transition:all 0.5s ease 0s;margin-top:10px;text-transform:capitalize;}
+a.button:hover{background-color:#282828;color:#ffffff;}
+.services-box{width:31.6%;float:left;position:relative;margin-right:30px;margin-top:30px;}
+#last.services-box{margin-right:0;}
+.ser-content{padding:0;left:0;right:0;margin:0 auto;}
+.ser-content h4{font-weight:400;}
+.services-box img:hover{opacity:0.6;}
+.ser-content h4 a{color:#ffffff;text-transform:uppercase;background-color:#c49454;display:block;padding:15px;}
+.ser-content h4 a:hover{background-color:#1d1917;color:#ffffff;}
+.two-column{position:relative;}
+.two-column .one_half{width:45%;margin-right:70px;}
+.two-column .one_half img{width:100%;height:auto;}
+.two-column .one_half.last_column{width:49%;}
+.two-column .one_half.last_column h2{font:700 30px/40px 'Montserrat';color:#483b33;text-transform:uppercase;}
+.two-column .one_half.last_column p{margin-bottom:20px;font-weight:500;}
+.req-cols{position:relative;}
+.req-cols .one_half{padding:30px 0;}
+.quote_for h2{margin-bottom:50px;text-align:left;padding-bottom:10px;}
+.quote_for h2.section_title::after{margin:0;}
+.quote_for{width:52%;float:left;}
+.quote-box{width:47.5%;float:left;margin-right:30px;margin-bottom:30px;}
+#last.quote-box{margin-right:0;}
+.quote-box h4{text-transform:uppercase;margin:0 0 10px 0;}
+.quote_form{width:38%;float:right;background-position:center center;background-size:cover;position:relative;padding:50px 40px 20px;}
+.quote_form:before{position:absolute;content:'';height:100%;width:100%;top:0;left:0;}
+.quote_form h2.section_title{margin-bottom:30px;padding-bottom:10px;color:#ffffff !important;}
+.quote_form .request-form{position:relative;}
+.request-form input[type="text"], .request-form input[type="email"], .request-form input[type="tel"]{width:98%;height:52px;background-color:#ffffff;border:none;color:#444444;padding-left:20px;margin:0 0 20px 0;font:500 13px 'Montserrat';border:1px solid #ccc;}
+.request-form textarea{width:98%;height:110px;background-color:#ffffff;border:none;color:#444444;padding:20px 0 0 20px;margin:0 0 20px 0;font:500 13px 'Montserrat';border:1px solid #ccc;}
+.request-form input[type="submit"]{text-transform:uppercase;padding:15px 40px;font:500 13px 'Montserrat';transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-webkit-transition:all 0.5s ease 0s;}
+.counter{position:relative;text-align:center;}
+#countersec{position:relative;}
+#countersec:before{position:absolute;content:'';height:100%;width:100%;top:0;left:0;}
+.counter-box{width:170px;height:170px;margin:0 38px 0 0;border-radius:50%;border:3px solid #ffffff;text-align:center;padding:0;display:inline-block;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);-webkit-transition-duration:0.3s;transition-duration:0.3s;-webkit-transition-property:transform;transition-property:transform;}
+.counter-box:hover{background-color:#c49454;border-color:#c49454;cursor:pointer;-webkit-transform:scale(1.1);transform:scale(1.1);}
+.counter-box:hover h5{color:#ffffff;}
+.counter-box#last{margin-right:0;}
+.counter-box h3.counter{font:700 28px 'Montserrat';color:#ffffff;display:inline-block;margin-bottom:5px;margin-top:54px;}
+.counter-box h5{margin-bottom:0;color:#c49454;font-weight:500;font:400 15px 'Karla';text-transform:uppercase;}
+.teammember-list{width:22.5%;float:left;margin:20px 30px 0px 0;position:relative;}
+.teammember-list:hover{cursor:pointer;}
+.teammember-list .thumnailbx{overflow:hidden;position:relative;}
+.teammember-list img{vertical-align:middle;width:100%;height:auto;display:block;transition:0.6s;-moz-transition:0.6s;-webkit-transition:0.6s;-o-transition:0.6s;}
+.teammember-list img:hover{-webkit-filter:grayscale(100%);filter:grayscale(100%);}
+.teammember-list h4{font-weight:600;text-transform:uppercase;margin-bottom:5px;font-family:'Montserrat';}
+.teammember-list h4 a{color:#444444;}
+.teammember-list:hover h4 a{color:#c49454;}
+.teammember-list cite{display:block;font-style:normal;font:400 14px 'Karla';color:#c49454;margin-bottom:6px;}
+.titledesbox{text-align:left;padding:20px 0 10px;overflow:visible;}
+.whyus{position:relative;}
+.whyus-box{width:45%;float:left;padding:25px 20px;margin:12px 23px 12px 0;border:1px dashed #69af07;cursor:pointer;}
+.whyus-box#last{margin-right:0;}
+.whyus-box .whyus-icon{float:left;display:inline-block;text-align:center;margin-bottom:10px;}
+.whyus-box .whyus-icon .fa{color:#69af07;display:table-cell;font-size:3.5em;height:60px;vertical-align:middle;width:60px;}
+.whyus-box .whyus-desc{float:right;display:inline-block;width:85%;}
+.whyus-box .whyus-desc h3{margin:20px 0 0;font-weight:700;line-height:25px;}
+.whyus-box:hover h3 a{color:#69af07;}
+.projects{position:relative;}
+.projects h2.section_title{color:#ffffff;}
+.projects .photobooth ul.portfoliofilter li a.selected, .entry-content .photobooth ul.portfoliofilter li a.selected{background-color:none;border:none !important;}
+.projects .photobooth ul.portfoliofilter li a{background-color:none;border:none !important;font:500 14px 'Montserrat';}
+.projects .photobooth ul.portfoliofilter li{font:500 14px 'Montserrat';}
+.projects .holderwrap h5{font:600 18px 'Montserrat';color:#ffffff;}
+.entry-content .photobooth ul.portfoliofilter li a, .entry-content .photobooth ul.portfoliofilter li{color:#483b33;border:none;font:500 14px "Montserrat";}
+.entry-content ul.portfoliofilter li a.selected, .entry-content ul.portfoliofilter li a:hover{color:#69af07;}
+#testimonials{position:relative;}
+#testimonials:before{position:absolute;content:'';height:100%;width:100%;top:0;left:0;}
+#testimonials h2.section_title{color:#ffffff;position:relative;}
+#clienttestiminials{padding-bottom:40px;text-align:center;margin-top:20px;}
+#clienttestiminials .item{padding:0px;}
+#clienttestiminials .tmthumb{width:80px;height:80px;margin:10px auto 0px;border-radius:50%;}
+#clienttestiminials .tmthumb img{width:100%;height:100%;border-radius:50%;}
+#clienttestiminials p{font:400 16px/22px 'Karla';font-style:italic;color:#ffffff;width:73%;margin:15px auto 10px;}
+#clienttestiminials h6{margin:0px 0 5px;text-transform:uppercase;font-size:14px;font-family:'Montserrat';font-weight:500;}
+#clienttestiminials h6 a{color:#c49454;}
+#clienttestiminials span{font-size:14px;color:#ffffff;font-weight:400;font-family:'Karla';display:block;text-transform:capitalize;font-style:italic;}
+.client-say{width:80%;margin:0 auto;position:relative;z-index:1;font:normal 16px/24px 'Montserrat';color:#333333;}
+.client-say .timthumb{width:10%;float:left;}
+.client-say .timthumb img{height:100%;}
+.client-say .tm_description{width:87%;float:right;}
+.client-say p{margin-bottom:30px;}
+.client-say h6{color:#fff;margin:20px 0 0 0;text-transform:none;}
+.tmnllisting{margin-bottom:35px;min-height:120px;}
+.tmnllisting .tmnlthumb{float:left;width:120px;height:120px;margin:0 5% 0 0;overflow:hidden;}
+.tmnllisting .tmnlthumb img{width:100%;height:100%;border-radius:50%;}
+.tmnllisting h6{margin-bottom:10px;padding-top:10px;text-transform:uppercase;}
+#testimonials-widget h6{margin-bottom:5px;text-transform:capitalize;}
+#testimonials-widget p{margin-bottom:15px;}
+.news-box{width:31.5%;float:left;margin:20px 32px 20px 0;}
+.news-box.last{border-bottom:0;margin:20px 0 20px 0;padding:0;}
+.news-box .news-thumb{overflow:hidden;position:relative;}
+.news-box .news-thumb img{width:100%;height:auto;transition:0.6s;-moz-transition:0.6s;-webkit-transition:0.6s;-o-transition:0.6s;}
+.news-box .news-thumb img:hover{-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:grayscale(100%);}
+.news-thumb .post-date{width:60px;position:absolute;z-index:99;bottom:7px;left:0;background-color:#69af07;text-align:center;padding:10px 5px;}
+.news-thumb .post-date .spantop{color:#ffffff;font:700 20px 'Montserrat';}
+.news-thumb .post-date .spanbottom{color:#ffffff;font:500 13px 'Montserrat';}
+.news-box .newsdesc{padding:20px;border:1px solid #dee4ee;}
+.news-box .newsdesc p{margin-bottom:20px;font-size:14px;color:#646464;line-height:22px;}
+.news-box h3{padding:0px;margin-bottom:0;text-transform:uppercase;font:600 17px/28px 'Montserrat';color:#282828;}
+.news-box h3 a{color:#282828;}
+.news-box h3 a:hover{color:#69af07;}
+.news-box .PostMeta{font-size:13px;color:#838c9a;margin-bottom:8px;font-weight:400;font-family:'Montserrat';}
+.news-box .PostMeta a{text-transform:capitalize;color:#c49454;padding-right:5px;}
+.news-box:last-child{margin:20px 0;}
+h2.heading{padding-bottom:15px;}
+.underline{border-bottom:1px solid #efeded;}
+.acc-content a{font-weight:bold;line-height:30px;}
+.content-area{padding:50px 0;}
+.site-main{width:830px;margin:0;padding:0;float:left;}
+.sitefull{width:100% !important;}
+#sidebar{width:300px;float:right;}
+.sidebar-left{float:left !important;}
+#sidebar .quotes h6 a{color:#ffffff;}
+.flotRight{float:right !important;}
+aside.widget{margin-bottom:30px;padding:20px;background-color:#151515;}
+aside.widget ul{list-style:disc;}
+h3.widget-title{padding:12px 15px;margin-bottom:-1px;color:#ffffff;background-color:#69af07;font-size:17px;}
+#sidebar #contactform_main input[type=text], #sidebar #contactform_main input[type=email], #sidebar #contactform_main input[type=tel],#sidebar #contactform_main input[type=url], #sidebar #contactform_main textarea{width:90%;}
+#sidebar #contactform_main p{margin-bottom:10px;}
+#sidebar ul li{list-style:disc inside;border-bottom:1px dashed #ffffff;padding:8px 0 8px 0;}
+#sidebar ul li a{font:300 14px/18px "Montserrat";padding-left:10px;color:#ffffff;}
+#sidebar ul li a:hover{color:#69af07;}
+#sidebar ul li:last-child{border:none;}
+.nosidebar{float:none !important;margin:0 auto;}
+#sidebar .search-form input.search-field{background-color:#151515;width:80%;padding:13px 15px 12px 15px;box-sizing:border-box;}
+#sidebar .search-form input.search-submit{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/search-icon.html) no-repeat center center #212121;padding:12px 0 12px 0;font-size:0;width:20%;height:40px;float:right;}
+.skillbar{position:relative;display:block;margin-bottom:15px;width:100%;height:35px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;-webkit-transition:0.4s linear;-moz-transition:0.4s linear;-ms-transition:0.4s linear;-o-transition:0.4s linear;transition:0.4s linear;-webkit-transition-property:width, background-color;-moz-transition-property:width, background-color;-ms-transition-property:width, background-color;-o-transition-property:width, background-color;transition-property:width, background-color;}
+.skillbar-title{font:16px 'Montserrat';color:#483b33;}
+.skillbar-title span{display:block;color:#483b33;padding:0;height:35px;line-height:35px;}
+.skillbar-bar{height:6px;width:0px;background:#69af07;}
+.skill-bar-percent{position:absolute;right:0;top:0;font-size:15px;height:35px;line-height:35px;color:#e4e3e3;}
+.skill{width:46.98%;float:left;}
+.skill-bar{margin:60px 0 0 0;}
+.skill-bg{width:100%;background-color:#483b33;}
+#footer-wrapper{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/footerbg.html) no-repeat scroll center center;background-size:cover;color:#e2e1e2;position:relative;}
+#footer-wrapper:before{position:absolute;content:'';height:100%;width:100%;top:0;left:0;}
+#footer-wrapper p{font:500 14px/22px 'Karla';}
+.cols-3{width:30.9%;float:left;margin-right:19px;padding:30px 20px 30px 0;position:relative;}
+.cols-3 h5{margin-bottom:30px;padding-bottom:15px;text-transform:uppercase;margin-top:20px;font-weight:700;border-bottom:1px solid #c49454;}
+.cols-3 ul li{list-style:disc inside none;}
+.cols-3 ul li:last-child{margin-right:0;}
+.cols-3 ul li a{padding:8px 0 8px 10px;display:inline-block;color:#ffffff;}
+.cols-3 ul li a:hover, .cols-3 ul li.current_page_item a{color:#c49454;}
+.widget-column-3{margin-right:0;border-right:none;padding-right:0;}
+.cols-3 ul li:last-child a{border-bottom:none;}
+.cols-3 .spanleft{float:left;text-align:left;font:400 13px/22px 'Montserrat';margin-bottom:10px;}
+.cols-3 .spanright{float:right;text-align:left;font:400 13px/22px 'Montserrat';margin-bottom:10px;}
+ul.footerlist li{display:inline-block;width:49.5%;}
+ul.footerlist li a{position:relative;padding-left:20px;}
+ul.footerlist li a:before{position:absolute;content:'\f111';left:0;font-family:FontAwesome;font-size:8px;top:7px;}
+.contactdetail{line-height:22px;margin-top:20px;}
+.contactdetail .fa{margin-right:20px;font-size:16px;}
+.contactdetail p{margin-bottom:10px;}
+.contact_right .contactdetail{padding:20px 15px 15px 15px;background-color:#33281e;color:#ffffff;margin-top:0;}
+.cols-3 .social-icons{margin-top:20px;}
+.cols-3 .social-icons a{width:35px;height:35px;line-height:35px;margin:0 10px 10px 0;padding:0;border-radius:50%;-moz-border-radius:50%;-webkt-border-radius:50%;color:#8d8c8a;border:none;display:inline-block;font-size:16px;border:2px solid #8d8c8a;}
+.cols-3 .social-icons a:hover{color:#ffffff;background-color:#c49454;border-color:#c49454;}
+.copyright-wrapper{background-color:#c49454;color:#929292;position:relative;padding:20px 0;font:400 13px/22px 'Montserrat';}
+.copyright-txt{float:left;font-weight:normal;}
+.designby{float:right;font-weight:normal;}
+.designby a:hover{color:#000000;}
+.wpcf7{margin:0;padding:0;font:15px 'Montserrat';color:#e4e3e3;}
+.wpcf7 form{margin:0;padding:0;}
+.wpcf7 form span.last{float:none !important;}
+.wpcf7 form input[type="url"], .wpcf7 form input[type="date"], .wpcf7 form select{background-color:#f1f1f1;border:1px solid #eed2bb;padding:5px 3px;margin-top:10px;font:13px arial;color:#777777;}
+.wpcf7 form input[type="checkbox"], .wpcf7 form input[type="radio"], .wpcf7 form input[type="file"]{margin-top:10px;padding:0;}
+span.wpcf7-list-item{margin:0 15px 0 0 !important;}
+#contactform_main input[type=text], #contactform_main input[type=email], #contactform_main input[type=tel], #contactform_main input[type=url], #contactform_main textarea{width:40%;border:1px solid #ebebeb;padding:15px;float:left;margin:0 8px 8px 0;background-color:#f8f8f8;color:#483b33;}
+
+#contactform_main textarea{width:85.6%;margin-right:0;height:130px;}
+#contactform_main span.capcode{float:left;padding:13px;padding:13px;margin:0 8px 8px 0;}
+
+#contactform_main input[type=submit], .wpcf7 form input[type="submit"]{font:700 16px/24px 'Montserrat';text-transform:uppercase;cursor:pointer;transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-webkit-transition:all 0.5s ease 0s;margin-top:20px;}
+.wpcf7 form input[type="text"], .wpcf7 form input[type="email"], .wpcf7 form input[type="tel"], .wpcf7 form textarea{border:1px solid #2f1e0c;padding:15px;margin:0 8px 8px 0;background-color:#2f1e0c;}
+.wpcf7 form textarea{margin-right:0;height:130px;}
+#reservation_form input[type=text], #reservation_form input[type=email], #reservation_form input[type=tel], #reservation_form textarea,.wpcf7 form input[type="text"], .wpcf7 form input[type="email"], .wpcf7 form input[type="tel"], .wpcf7 form textarea{width:90%;background-color:#2f1e0c;color:#c8c7c5;border:1px solid #2f1e0c;padding:10px 15px;}
+#reservation_form p, .wpcf7 form{margin-bottom:6px;}
+#reservation_form input[type=submit], .wpcf7 form input[type="submit"]{font:400 20px/24px 'Montserrat';text-transform:uppercase;cursor:pointer;width:100%;}
+iframe{width:100%;}
+.contact_left{float:left;width:65%;}
+.contact_right{float:right;width:30%;}
+.contact_right h3{}
+.post-title{margin-bottom:0px;font-weight:400;line-height:25px;}
+.post-title a{color:#e4e3e3;}
+.blog-post-repeat .postmeta{border-bottom:1px solid #483b33;margin-bottom:15px;}
+p.read-more a{font:600 12px/22px 'Montserrat';background-color:#ff6565;color:#fff;text-align:center;padding:5px 15px;display:inline-block;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-webkit-transition:all 0.5s ease 0s;}
+p.read-more a:hover{background-color:#34c6f6;}
+.blog-post-repeat .post-thumb img{float:left;margin-right:15px;margin-bottom:15px;height:auto;}
+.error_msg{padding:10px;background:#ffd3ce;color:#e00;border:1px #e00 solid;margin:15px 0;}
+.success_msg{padding:10px;background:#dcffc5;color:#070;border:1px #070 solid;margin:15px 0;}
+.spacer20{height:20px;clear:both;}
+.pagination{display:table;clear:both;}
+.pagination ul{list-style:none;margin:20px 0;}
+.pagination ul li{display:inline;float:left;margin-right:5px;}
+.pagination ul li span, .pagination ul li a{background:#303441;color:#fff;padding:5px 10px;display:inline-block;}
+.pagination ul li .current, .pagination ul li a:hover{background:#34c6f6;}
+article.tag-sticky-2{background:#f6f6f6;padding:10px;}
+h1.entry-title{font-weight:600;font-size:30px;text-transform:capitalize;padding-bottom:20px;margin-bottom:30px;position:relative;}
+h1.entry-title::after{content:"";position:absolute;width:50px;height:2px;background-color:#483b33;bottom:0;left:0;right:0;}
+article p{margin:0 0 20px 0;}
+.post-date{display:inline;}
+.post-comment{display:inline;}
+.post-categories{display:inline;}
+.post-tags{display:inline;}
+form.search-form{margin-bottom:20px;}
+input.search-field, .post-password-form input[type=password], .wpcf7 form input[type="submit"]{border:none;padding:7px 15px;}
+input.search-submit, .post-password-form input[type=submit], .wpcf7 form input[type="submit"]{border:none;color:#ffffff;padding:7px 15px;cursor:pointer;}
+.nav-previous{float:left;margin-top:10px;margin-bottom:10px;}
+.nav-next{float:right;margin-top:10px;margin-bottom:10px;}
+nav.post-navigation{padding:10px 0 20px;}
+.comment-list, ol.comment-list{list-style:none;margin-left:0;margin-top:20px;margin-bottom:20px;}
+.comment-list ul, ol.comment-list ul{list-style:none;}
+.comment-list li.comment{margin-top:20px;}
+.comment-list .comment-content h1, .comment-list .comment-content h2, .comment-list .comment-content h3, .comment-list .comment-content h4, .comment-list .comment-content h5, .comment-list .comment-content h6{margin-top:15px;}
+.customtab{margin-top:0px;}
+.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important;height:1px;width:1px;overflow:hidden;}
+.screen-reader-text:focus{background-color:#f1f1f1;border-radius:3px;box-shadow:0 0 2px 2px rgba(0, 0, 0, 0.6);clip:auto !important;color:#21759b;display:block;font-size:14px;font-size:0.875rem;font-weight:bold;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000;}
+a.added_to_cart{background-color:#805221;color:#ffffff;padding:9px 17px;font:400 14px/20px 'Montserrat';display:inline-block;transition:all 0.5s ease 0s;-o-transition:all 0.5s ease 0s;-moz-transition:all 0.5s ease 0s;-webkit-transition:all 0.5s ease 0s;border-radius:3px;}
+a.added_to_cart:hover{background-color:#f0d4bc;color:#42332c;}
+a.button.added:before{content:'' !important;}
+#bbpress-forums ul li{padding:0;}
+#subscription-toggle a.subscription-toggle{padding:5px 10px;display:inline-block;color:#e1472f;margin-top:4px;}
+textarea.wp-editor-area{border:1px #ccc solid;}
+.woocommerce input[type=text], .woocommerce textarea{border:1px #ccc solid;padding:4px;}
+form.woocommerce-ordering select{padding:5px;color:#777777;}
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th{font-family:'Montserrat';color:#42332c;}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{color:inherit !important;}
+h1.product_title, p.price{margin-bottom:10px;}
+.woocommerce table.shop_table th, .woocommerce-page table.shop_table th{font-family:'Montserrat';color:#42332c;}
+.woocommerce ul.products li, #payment ul.payment_methods li{list-style:none !important;}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{color:inherit !important;}
+.woocommerce table.shop_table th, .woocommerce table.shop_table td{border-bottom:0px !important;}
+.woocommerce div.product .product_title{padding-bottom:20px;}
+.woocommerce div.product p.price, .woocommerce div.product span.price{color:#805221;font-family:'Montserrat';}
+.woocommerce div.product p.price del{margin-right:10px;}
+.woocommerce div.product form.cart, .woocommerce div.product p.cart{margin-top:2em;}
+.woocommerce div.product form.cart div.quantity, .woocommerce div.product form.cart .button{float:none;}
+.woocommerce div.product form.cart .button{margin-top:2em;}
+.woocommerce .quantity .qty{border:1px solid #805221;height:19px;}
+#add_payment_method table.cart td.actions .coupon .input-text, .woocommerce-cart table.cart td.actions .coupon .input-text, .woocommerce-checkout table.cart td.actions .coupon .input-text{padding:10px 6px;}
+#add_payment_method .wc-proceed-to-checkout a.checkout-button,.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button{background-color:#805221 !important;color:#ffffff !important;}
+.woocommerceright{float:left;}
+.woocommerceleft{float:right;}
+.content-area .woocommercesitefull{width:100%;}
+.post-nav{clear:left;margin-top:40px;}
+.prev-page, .next-page{margin:0;padding:0;}
+.prev-page a{float:left;}
+.next-page a{float:right;}
+.prev-page a, .next-page a{background-color:#515151;padding:5px 10px;color:#ffffff;font:15px 'Montserrat';}
+.prev-page a:hover, .next-page a:hover{color:#ffffff;background-color:#34c6f6;}
+.singleright{float:left;}
+.singleleft{float:right;}
+#top{position:relative;}
+#back-top{position:fixed;bottom:15px;right:25px;}
+#back-top a{width:64px;display:block;text-align:center;font:11px/100% Arial, Helvetica, sans-serif;text-transform:uppercase;text-decoration:none;color:#bbb;-webkit-transition:1s;-moz-transition:1s;transition:1s;}
+#back-top span{width:64px;height:62px;display:block;margin-bottom:7px;background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/up-arrow.html) no-repeat center center;-webkit-transition:1s;-moz-transition:1s;transition:1s;opacity:0.5;}
+.slider-main{min-height:498px;position:relative;background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/loading.html) no-repeat center center #fff;}
+.boxlayout{width:1210px;margin:0 auto;box-shadow:0 5px 10px #000;}
+.boxlayout .container{padding:0 20px;}
+body.page #testimonials:before{ background-color:transparent !important;}body#tinymce.wp-editor{font-family:'Roboto',Arial;margin:10px;}
+body#tinymce.wp-editor a {
+color: #5E5340;
+}
+  img{max-width:100%;}
+.clear{clear:both;}
+.text-center{text-align:center;}
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+.full_width{width:100%;}
+.one_half, .one_third, .two_third, .one_fourth, .three_fourth, .one_fifth, .four_fifth{float:left;margin-bottom:20px;position:relative;}
+.last_column{clear:right;margin-right:0 !important;}
+.one_half{width:48%;margin-right:4%;}
+.one_third{width:30%;margin-right:5%;}
+.two_third{width:65%;margin-right:3%;}
+.one_fourth{width:22%;margin-right:4%;}
+.three_fourth{width:72%;margin-right:3%;}
+.one_fifth{width:18%;margin-right:2%;}
+.topmargin15{margin-top:15px;}
+.slide_toggle{color:#333;margin:0 !important;padding:5px 10px !important;background-color:#efefef;background:-moz-linear-gradient(center top , #FFFFFF, #efefef);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#efefef));background:-webkit-linear-gradient(top, #FFFFFF, #efefef);background:-ms-linear-gradient(top, #FFFFFF, #efefef);background:-o-linear-gradient(top, #FFFFFF, #efefef);border:1px #ccc solid !Important;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;-khtml-border-radius:10px;}
+.slide_toggle a{text-decoration:none !important;display:block;color:#34c6f6;}
+h3.slide_toggle a:before{background-color:#353535;border-radius:25px;-moz-border-radius:25px;-webkit-border-radius:25px;-khtml-border-radius:25px;color:#CCCCCC;content:"+";display:inline-block;font-family:Tahoma;font-size:11px;height:15px;line-height:13px;margin-right:10px;position:relative;text-align:center;top:-2px;width:15px;}
+h3.clicked{border-radius:10px 10px 0 0 !important;-moz-border-radius:10px 10px 0 0 !important;;-webkit-border-radius:10px 10px 0 0 !important;;-khtml-border-radius:10px 10px 0 0 !important;margin-bottom:0 !important;}
+h3.clicked a{color:#000000;}
+h3.clicked a:before{content:"-";}
+.slide_toggle_content{padding:10px;background:#f6f6f6;border:1px #ccc solid;border-top-width:0 !important;border-radius:0 0 10px 10px !important;-moz-border-radius:0 0 10px 10px !important;;-webkit-border-radius:0 0 10px 10px !important;;-khtml-border-radius:0 0 10px 10px !important;}
+.tabs-wrapper{margin-bottom:15px;}
+.tabs-wrapper ul.tabs{width:100%;margin:20px 0 -1px;padding:0;float:left;}
+.tabs-wrapper ul.tabs li{display:block;float:left;margin:0 1px 0 0;}
+.tabs-wrapper ul.tabs li a{background-color:#494949;color:#fff;display:block;float:left;text-decoration:none;padding:12px 25px;cursor:pointer;overflow:hidden;outline:none;text-transform:uppercase;}
+.tabs-wrapper ul.tabs li a.selected{color:#fff;background-color:#3695eb;}
+.tabs-wrapper .tab-content{clear:both;border:1px solid #c1c1c1;padding:22px 15px;}
+.tabs-wrapper .tab-content p{margin-bottom:15px;}
+.js_on .tabs-wrapper .tab-content{display:none;margin-bottom:15px;}
+.tabs-wrapper .tab-content .tabs-inner-padding{padding:10px;}
+.accordion-box{margin-bottom:10px;}
+.accordion-box h2{padding:15px 15px 15px 20px !important;margin:0;cursor:pointer;color:#616060;font-size:15px !important;text-align:left;border:1px solid #C1C1C1;margin-bottom:10px;text-transform:capitalize;position:relative;line-height:22px;}
+.acc-content{padding:20px 5px;background-color:#fff;color:#6e6d6d;}
+.accordion-wrapper{padding-bottom:15px;}
+.accordion-container{margin:0 0 1px;padding:0;overflow:hidden;width:100%;clear:both;}
+.accordion-container .content-block{padding:20px;}
+.accordion-box h2:before{font-family:fontawesome;content:"\f061";display:inline-block;font-size:11px;margin-right:10px;position:relative;text-align:center;top:-1px;}
+.accordion-box h2.active{margin-bottom:0 !important;color:#fff;border:1px solid transparent;background-color:#3695eb;}
+.accordion-box h2.active:before{font-family:fontawesome;content:"\f063";}
+.linktotop{color:#666;font-size:11px;text-align:right;}
+.linktotop a{text-decoration:none;}
+.postmeta, .entry-meta{padding:10px 0;color:#999;}
+footer.entry-meta{}
+.breadcrumbs{padding:10px 0;margin-bottom:0;}
+ol.commentlist{list-style:none;}
+#commentform p{margin:5px 0;}
+#commentform label{display:block;}
+#commentform input#email, #commentform input#url, #commentform input#author, #commentform textarea, #commentform input#eazycfc_captcha{max-width:96%;border:1px #ccc solid;padding:5px 2%;}
+#commentform input#submit{background:#34c6f6;border:none;padding:8px 15px;color:#fff;display:inline-block;cursor:pointer;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;}
+#commentform input#submit:hover{background:#eee;color:#34c6f6;}
+.form-allowed-tags{display:none;}
+ul.errormsg{background:#ffe4e4;}
+ul.errormsg li{padding:5px;}
+.entry-content table, .comment-body table{border-collapse:collapse;margin:10px 0;}
+.entry-content table td, .entry-content table th, .comment-body table td, .comment-body table th{padding:10px 5px;text-align:left;}
+.entry-content table th, .comment-body table th{color:#676767;font:normal 18px Oswald;border-bottom:1px #888 solid;}
+.entry-content table td, .comment-body table td{border-bottom:1px #ccc solid;}
+.fvch-codeblock:hover .comment-form-url{display:block !important;}
+.comment-author.vcard{display:inline-block;margin-right:15px;float:left;}
+.comment-list ul.children li.comment{background-image:none;padding-left:15px;}
+.hrule{border-top:1px #999 dotted; margin-top:15px; padding-bottom:15px;}@font-face{font-family:'FontAwesome';src:url(http://sunnyshutter.ca/wp-content/themes/carpenter-pro/css/fonts/fontawesome-webfont.eot?v=4.7.0);src:url(//sunnyshutter.ca/wp-content/themes/carpenter-pro/css/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(//sunnyshutter.ca/wp-content/themes/carpenter-pro/css/fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(//sunnyshutter.ca/wp-content/themes/carpenter-pro/css/fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(//sunnyshutter.ca/wp-content/themes/carpenter-pro/css/fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(//sunnyshutter.ca/wp-content/themes/carpenter-pro/css/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');font-weight:normal;font-style:normal;}
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.fa-lg{font-size:1.33333333em;line-height:0.75em;vertical-align:-15%;}
+.fa-2x{font-size:2em;}
+.fa-3x{font-size:3em;}
+.fa-4x{font-size:4em;}
+.fa-5x{font-size:5em;}
+.fa-fw{width:1.28571429em;text-align:center;}
+.fa-ul{padding-left:0;margin-left:2.14285714em;list-style-type:none;}
+.fa-ul > li{position:relative;}
+.fa-li{position:absolute;left:-2.14285714em;width:2.14285714em;top:0.14285714em;text-align:center;}
+.fa-li.fa-lg{left:-1.85714286em;}
+.fa-border{padding:.2em .25em .15em;border:solid 0.08em #eeeeee;border-radius:.1em;}
+.fa-pull-left{float:left;}
+.fa-pull-right{float:right;}
+.fa.fa-pull-left{margin-right:.3em;}
+.fa.fa-pull-right{margin-left:.3em;}
+.pull-right{float:right;}
+.pull-left{float:left;}
+.fa.pull-left{margin-right:.3em;}
+.fa.pull-right{margin-left:.3em;}
+.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear;}
+.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8);}
+@-webkit-keyframes fa-spin {
+0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100%{-webkit-transform:rotate(359deg);transform:rotate(359deg);}
+}
+@keyframes fa-spin {
+0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+100%{-webkit-transform:rotate(359deg);transform:rotate(359deg);}
+}
+.fa-rotate-90{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg);}
+.fa-rotate-180{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);}
+.fa-rotate-270{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg);}
+.fa-flip-horizontal{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";-webkit-transform:scale(-1, 1);-ms-transform:scale(-1, 1);transform:scale(-1, 1);}
+.fa-flip-vertical{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";-webkit-transform:scale(1, -1);-ms-transform:scale(1, -1);transform:scale(1, -1);}:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical{filter:none;}
+.fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle;}
+.fa-stack-1x,
+.fa-stack-2x{position:absolute;left:0;width:100%;text-align:center;}
+.fa-stack-1x{line-height:inherit;}
+.fa-stack-2x{font-size:2em;}
+.fa-inverse{color:#ffffff;}
+.fa-glass:before{content:"\f000";}
+.fa-music:before{content:"\f001";}
+.fa-search:before{content:"\f002";}
+.fa-envelope-o:before{content:"\f003";}
+.fa-heart:before{content:"\f004";}
+.fa-star:before{content:"\f005";}
+.fa-star-o:before{content:"\f006";}
+.fa-user:before{content:"\f007";}
+.fa-film:before{content:"\f008";}
+.fa-th-large:before{content:"\f009";}
+.fa-th:before{content:"\f00a";}
+.fa-th-list:before{content:"\f00b";}
+.fa-check:before{content:"\f00c";}
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before{content:"\f00d";}
+.fa-search-plus:before{content:"\f00e";}
+.fa-search-minus:before{content:"\f010";}
+.fa-power-off:before{content:"\f011";}
+.fa-signal:before{content:"\f012";}
+.fa-gear:before,
+.fa-cog:before{content:"\f013";}
+.fa-trash-o:before{content:"\f014";}
+.fa-home:before{content:"\f015";}
+.fa-file-o:before{content:"\f016";}
+.fa-clock-o:before{content:"\f017";}
+.fa-road:before{content:"\f018";}
+.fa-download:before{content:"\f019";}
+.fa-arrow-circle-o-down:before{content:"\f01a";}
+.fa-arrow-circle-o-up:before{content:"\f01b";}
+.fa-inbox:before{content:"\f01c";}
+.fa-play-circle-o:before{content:"\f01d";}
+.fa-rotate-right:before,
+.fa-repeat:before{content:"\f01e";}
+.fa-refresh:before{content:"\f021";}
+.fa-list-alt:before{content:"\f022";}
+.fa-lock:before{content:"\f023";}
+.fa-flag:before{content:"\f024";}
+.fa-headphones:before{content:"\f025";}
+.fa-volume-off:before{content:"\f026";}
+.fa-volume-down:before{content:"\f027";}
+.fa-volume-up:before{content:"\f028";}
+.fa-qrcode:before{content:"\f029";}
+.fa-barcode:before{content:"\f02a";}
+.fa-tag:before{content:"\f02b";}
+.fa-tags:before{content:"\f02c";}
+.fa-book:before{content:"\f02d";}
+.fa-bookmark:before{content:"\f02e";}
+.fa-print:before{content:"\f02f";}
+.fa-camera:before{content:"\f030";}
+.fa-font:before{content:"\f031";}
+.fa-bold:before{content:"\f032";}
+.fa-italic:before{content:"\f033";}
+.fa-text-height:before{content:"\f034";}
+.fa-text-width:before{content:"\f035";}
+.fa-align-left:before{content:"\f036";}
+.fa-align-center:before{content:"\f037";}
+.fa-align-right:before{content:"\f038";}
+.fa-align-justify:before{content:"\f039";}
+.fa-list:before{content:"\f03a";}
+.fa-dedent:before,
+.fa-outdent:before{content:"\f03b";}
+.fa-indent:before{content:"\f03c";}
+.fa-video-camera:before{content:"\f03d";}
+.fa-photo:before,
+.fa-image:before,
+.fa-picture-o:before{content:"\f03e";}
+.fa-pencil:before{content:"\f040";}
+.fa-map-marker:before{content:"\f041";}
+.fa-adjust:before{content:"\f042";}
+.fa-tint:before{content:"\f043";}
+.fa-edit:before,
+.fa-pencil-square-o:before{content:"\f044";}
+.fa-share-square-o:before{content:"\f045";}
+.fa-check-square-o:before{content:"\f046";}
+.fa-arrows:before{content:"\f047";}
+.fa-step-backward:before{content:"\f048";}
+.fa-fast-backward:before{content:"\f049";}
+.fa-backward:before{content:"\f04a";}
+.fa-play:before{content:"\f04b";}
+.fa-pause:before{content:"\f04c";}
+.fa-stop:before{content:"\f04d";}
+.fa-forward:before{content:"\f04e";}
+.fa-fast-forward:before{content:"\f050";}
+.fa-step-forward:before{content:"\f051";}
+.fa-eject:before{content:"\f052";}
+.fa-chevron-left:before{content:"\f053";}
+.fa-chevron-right:before{content:"\f054";}
+.fa-plus-circle:before{content:"\f055";}
+.fa-minus-circle:before{content:"\f056";}
+.fa-times-circle:before{content:"\f057";}
+.fa-check-circle:before{content:"\f058";}
+.fa-question-circle:before{content:"\f059";}
+.fa-info-circle:before{content:"\f05a";}
+.fa-crosshairs:before{content:"\f05b";}
+.fa-times-circle-o:before{content:"\f05c";}
+.fa-check-circle-o:before{content:"\f05d";}
+.fa-ban:before{content:"\f05e";}
+.fa-arrow-left:before{content:"\f060";}
+.fa-arrow-right:before{content:"\f061";}
+.fa-arrow-up:before{content:"\f062";}
+.fa-arrow-down:before{content:"\f063";}
+.fa-mail-forward:before,
+.fa-share:before{content:"\f064";}
+.fa-expand:before{content:"\f065";}
+.fa-compress:before{content:"\f066";}
+.fa-plus:before{content:"\f067";}
+.fa-minus:before{content:"\f068";}
+.fa-asterisk:before{content:"\f069";}
+.fa-exclamation-circle:before{content:"\f06a";}
+.fa-gift:before{content:"\f06b";}
+.fa-leaf:before{content:"\f06c";}
+.fa-fire:before{content:"\f06d";}
+.fa-eye:before{content:"\f06e";}
+.fa-eye-slash:before{content:"\f070";}
+.fa-warning:before,
+.fa-exclamation-triangle:before{content:"\f071";}
+.fa-plane:before{content:"\f072";}
+.fa-calendar:before{content:"\f073";}
+.fa-random:before{content:"\f074";}
+.fa-comment:before{content:"\f075";}
+.fa-magnet:before{content:"\f076";}
+.fa-chevron-up:before{content:"\f077";}
+.fa-chevron-down:before{content:"\f078";}
+.fa-retweet:before{content:"\f079";}
+.fa-shopping-cart:before{content:"\f07a";}
+.fa-folder:before{content:"\f07b";}
+.fa-folder-open:before{content:"\f07c";}
+.fa-arrows-v:before{content:"\f07d";}
+.fa-arrows-h:before{content:"\f07e";}
+.fa-bar-chart-o:before,
+.fa-bar-chart:before{content:"\f080";}
+.fa-twitter-square:before{content:"\f081";}
+.fa-facebook-square:before{content:"\f082";}
+.fa-camera-retro:before{content:"\f083";}
+.fa-key:before{content:"\f084";}
+.fa-gears:before,
+.fa-cogs:before{content:"\f085";}
+.fa-comments:before{content:"\f086";}
+.fa-thumbs-o-up:before{content:"\f087";}
+.fa-thumbs-o-down:before{content:"\f088";}
+.fa-star-half:before{content:"\f089";}
+.fa-heart-o:before{content:"\f08a";}
+.fa-sign-out:before{content:"\f08b";}
+.fa-linkedin-square:before{content:"\f08c";}
+.fa-thumb-tack:before{content:"\f08d";}
+.fa-external-link:before{content:"\f08e";}
+.fa-sign-in:before{content:"\f090";}
+.fa-trophy:before{content:"\f091";}
+.fa-github-square:before{content:"\f092";}
+.fa-upload:before{content:"\f093";}
+.fa-lemon-o:before{content:"\f094";}
+.fa-phone:before{content:"\f095";}
+.fa-square-o:before{content:"\f096";}
+.fa-bookmark-o:before{content:"\f097";}
+.fa-phone-square:before{content:"\f098";}
+.fa-twitter:before{content:"\f099";}
+.fa-facebook-f:before,
+.fa-facebook:before{content:"\f09a";}
+.fa-github:before{content:"\f09b";}
+.fa-unlock:before{content:"\f09c";}
+.fa-credit-card:before{content:"\f09d";}
+.fa-feed:before,
+.fa-rss:before{content:"\f09e";}
+.fa-hdd-o:before{content:"\f0a0";}
+.fa-bullhorn:before{content:"\f0a1";}
+.fa-bell:before{content:"\f0f3";}
+.fa-certificate:before{content:"\f0a3";}
+.fa-hand-o-right:before{content:"\f0a4";}
+.fa-hand-o-left:before{content:"\f0a5";}
+.fa-hand-o-up:before{content:"\f0a6";}
+.fa-hand-o-down:before{content:"\f0a7";}
+.fa-arrow-circle-left:before{content:"\f0a8";}
+.fa-arrow-circle-right:before{content:"\f0a9";}
+.fa-arrow-circle-up:before{content:"\f0aa";}
+.fa-arrow-circle-down:before{content:"\f0ab";}
+.fa-globe:before{content:"\f0ac";}
+.fa-wrench:before{content:"\f0ad";}
+.fa-tasks:before{content:"\f0ae";}
+.fa-filter:before{content:"\f0b0";}
+.fa-briefcase:before{content:"\f0b1";}
+.fa-arrows-alt:before{content:"\f0b2";}
+.fa-group:before,
+.fa-users:before{content:"\f0c0";}
+.fa-chain:before,
+.fa-link:before{content:"\f0c1";}
+.fa-cloud:before{content:"\f0c2";}
+.fa-flask:before{content:"\f0c3";}
+.fa-cut:before,
+.fa-scissors:before{content:"\f0c4";}
+.fa-copy:before,
+.fa-files-o:before{content:"\f0c5";}
+.fa-paperclip:before{content:"\f0c6";}
+.fa-save:before,
+.fa-floppy-o:before{content:"\f0c7";}
+.fa-square:before{content:"\f0c8";}
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before{content:"\f0c9";}
+.fa-list-ul:before{content:"\f0ca";}
+.fa-list-ol:before{content:"\f0cb";}
+.fa-strikethrough:before{content:"\f0cc";}
+.fa-underline:before{content:"\f0cd";}
+.fa-table:before{content:"\f0ce";}
+.fa-magic:before{content:"\f0d0";}
+.fa-truck:before{content:"\f0d1";}
+.fa-pinterest:before{content:"\f0d2";}
+.fa-pinterest-square:before{content:"\f0d3";}
+.fa-google-plus-square:before{content:"\f0d4";}
+.fa-google-plus:before{content:"\f0d5";}
+.fa-money:before{content:"\f0d6";}
+.fa-caret-down:before{content:"\f0d7";}
+.fa-caret-up:before{content:"\f0d8";}
+.fa-caret-left:before{content:"\f0d9";}
+.fa-caret-right:before{content:"\f0da";}
+.fa-columns:before{content:"\f0db";}
+.fa-unsorted:before,
+.fa-sort:before{content:"\f0dc";}
+.fa-sort-down:before,
+.fa-sort-desc:before{content:"\f0dd";}
+.fa-sort-up:before,
+.fa-sort-asc:before{content:"\f0de";}
+.fa-envelope:before{content:"\f0e0";}
+.fa-linkedin:before{content:"\f0e1";}
+.fa-rotate-left:before,
+.fa-undo:before{content:"\f0e2";}
+.fa-legal:before,
+.fa-gavel:before{content:"\f0e3";}
+.fa-dashboard:before,
+.fa-tachometer:before{content:"\f0e4";}
+.fa-comment-o:before{content:"\f0e5";}
+.fa-comments-o:before{content:"\f0e6";}
+.fa-flash:before,
+.fa-bolt:before{content:"\f0e7";}
+.fa-sitemap:before{content:"\f0e8";}
+.fa-umbrella:before{content:"\f0e9";}
+.fa-paste:before,
+.fa-clipboard:before{content:"\f0ea";}
+.fa-lightbulb-o:before{content:"\f0eb";}
+.fa-exchange:before{content:"\f0ec";}
+.fa-cloud-download:before{content:"\f0ed";}
+.fa-cloud-upload:before{content:"\f0ee";}
+.fa-user-md:before{content:"\f0f0";}
+.fa-stethoscope:before{content:"\f0f1";}
+.fa-suitcase:before{content:"\f0f2";}
+.fa-bell-o:before{content:"\f0a2";}
+.fa-coffee:before{content:"\f0f4";}
+.fa-cutlery:before{content:"\f0f5";}
+.fa-file-text-o:before{content:"\f0f6";}
+.fa-building-o:before{content:"\f0f7";}
+.fa-hospital-o:before{content:"\f0f8";}
+.fa-ambulance:before{content:"\f0f9";}
+.fa-medkit:before{content:"\f0fa";}
+.fa-fighter-jet:before{content:"\f0fb";}
+.fa-beer:before{content:"\f0fc";}
+.fa-h-square:before{content:"\f0fd";}
+.fa-plus-square:before{content:"\f0fe";}
+.fa-angle-double-left:before{content:"\f100";}
+.fa-angle-double-right:before{content:"\f101";}
+.fa-angle-double-up:before{content:"\f102";}
+.fa-angle-double-down:before{content:"\f103";}
+.fa-angle-left:before{content:"\f104";}
+.fa-angle-right:before{content:"\f105";}
+.fa-angle-up:before{content:"\f106";}
+.fa-angle-down:before{content:"\f107";}
+.fa-desktop:before{content:"\f108";}
+.fa-laptop:before{content:"\f109";}
+.fa-tablet:before{content:"\f10a";}
+.fa-mobile-phone:before,
+.fa-mobile:before{content:"\f10b";}
+.fa-circle-o:before{content:"\f10c";}
+.fa-quote-left:before{content:"\f10d";}
+.fa-quote-right:before{content:"\f10e";}
+.fa-spinner:before{content:"\f110";}
+.fa-circle:before{content:"\f111";}
+.fa-mail-reply:before,
+.fa-reply:before{content:"\f112";}
+.fa-github-alt:before{content:"\f113";}
+.fa-folder-o:before{content:"\f114";}
+.fa-folder-open-o:before{content:"\f115";}
+.fa-smile-o:before{content:"\f118";}
+.fa-frown-o:before{content:"\f119";}
+.fa-meh-o:before{content:"\f11a";}
+.fa-gamepad:before{content:"\f11b";}
+.fa-keyboard-o:before{content:"\f11c";}
+.fa-flag-o:before{content:"\f11d";}
+.fa-flag-checkered:before{content:"\f11e";}
+.fa-terminal:before{content:"\f120";}
+.fa-code:before{content:"\f121";}
+.fa-mail-reply-all:before,
+.fa-reply-all:before{content:"\f122";}
+.fa-star-half-empty:before,
+.fa-star-half-full:before,
+.fa-star-half-o:before{content:"\f123";}
+.fa-location-arrow:before{content:"\f124";}
+.fa-crop:before{content:"\f125";}
+.fa-code-fork:before{content:"\f126";}
+.fa-unlink:before,
+.fa-chain-broken:before{content:"\f127";}
+.fa-question:before{content:"\f128";}
+.fa-info:before{content:"\f129";}
+.fa-exclamation:before{content:"\f12a";}
+.fa-superscript:before{content:"\f12b";}
+.fa-subscript:before{content:"\f12c";}
+.fa-eraser:before{content:"\f12d";}
+.fa-puzzle-piece:before{content:"\f12e";}
+.fa-microphone:before{content:"\f130";}
+.fa-microphone-slash:before{content:"\f131";}
+.fa-shield:before{content:"\f132";}
+.fa-calendar-o:before{content:"\f133";}
+.fa-fire-extinguisher:before{content:"\f134";}
+.fa-rocket:before{content:"\f135";}
+.fa-maxcdn:before{content:"\f136";}
+.fa-chevron-circle-left:before{content:"\f137";}
+.fa-chevron-circle-right:before{content:"\f138";}
+.fa-chevron-circle-up:before{content:"\f139";}
+.fa-chevron-circle-down:before{content:"\f13a";}
+.fa-html5:before{content:"\f13b";}
+.fa-css3:before{content:"\f13c";}
+.fa-anchor:before{content:"\f13d";}
+.fa-unlock-alt:before{content:"\f13e";}
+.fa-bullseye:before{content:"\f140";}
+.fa-ellipsis-h:before{content:"\f141";}
+.fa-ellipsis-v:before{content:"\f142";}
+.fa-rss-square:before{content:"\f143";}
+.fa-play-circle:before{content:"\f144";}
+.fa-ticket:before{content:"\f145";}
+.fa-minus-square:before{content:"\f146";}
+.fa-minus-square-o:before{content:"\f147";}
+.fa-level-up:before{content:"\f148";}
+.fa-level-down:before{content:"\f149";}
+.fa-check-square:before{content:"\f14a";}
+.fa-pencil-square:before{content:"\f14b";}
+.fa-external-link-square:before{content:"\f14c";}
+.fa-share-square:before{content:"\f14d";}
+.fa-compass:before{content:"\f14e";}
+.fa-toggle-down:before,
+.fa-caret-square-o-down:before{content:"\f150";}
+.fa-toggle-up:before,
+.fa-caret-square-o-up:before{content:"\f151";}
+.fa-toggle-right:before,
+.fa-caret-square-o-right:before{content:"\f152";}
+.fa-euro:before,
+.fa-eur:before{content:"\f153";}
+.fa-gbp:before{content:"\f154";}
+.fa-dollar:before,
+.fa-usd:before{content:"\f155";}
+.fa-rupee:before,
+.fa-inr:before{content:"\f156";}
+.fa-cny:before,
+.fa-rmb:before,
+.fa-yen:before,
+.fa-jpy:before{content:"\f157";}
+.fa-ruble:before,
+.fa-rouble:before,
+.fa-rub:before{content:"\f158";}
+.fa-won:before,
+.fa-krw:before{content:"\f159";}
+.fa-bitcoin:before,
+.fa-btc:before{content:"\f15a";}
+.fa-file:before{content:"\f15b";}
+.fa-file-text:before{content:"\f15c";}
+.fa-sort-alpha-asc:before{content:"\f15d";}
+.fa-sort-alpha-desc:before{content:"\f15e";}
+.fa-sort-amount-asc:before{content:"\f160";}
+.fa-sort-amount-desc:before{content:"\f161";}
+.fa-sort-numeric-asc:before{content:"\f162";}
+.fa-sort-numeric-desc:before{content:"\f163";}
+.fa-thumbs-up:before{content:"\f164";}
+.fa-thumbs-down:before{content:"\f165";}
+.fa-youtube-square:before{content:"\f166";}
+.fa-youtube:before{content:"\f167";}
+.fa-xing:before{content:"\f168";}
+.fa-xing-square:before{content:"\f169";}
+.fa-youtube-play:before{content:"\f16a";}
+.fa-dropbox:before{content:"\f16b";}
+.fa-stack-overflow:before{content:"\f16c";}
+.fa-instagram:before{content:"\f16d";}
+.fa-flickr:before{content:"\f16e";}
+.fa-adn:before{content:"\f170";}
+.fa-bitbucket:before{content:"\f171";}
+.fa-bitbucket-square:before{content:"\f172";}
+.fa-tumblr:before{content:"\f173";}
+.fa-tumblr-square:before{content:"\f174";}
+.fa-long-arrow-down:before{content:"\f175";}
+.fa-long-arrow-up:before{content:"\f176";}
+.fa-long-arrow-left:before{content:"\f177";}
+.fa-long-arrow-right:before{content:"\f178";}
+.fa-apple:before{content:"\f179";}
+.fa-windows:before{content:"\f17a";}
+.fa-android:before{content:"\f17b";}
+.fa-linux:before{content:"\f17c";}
+.fa-dribbble:before{content:"\f17d";}
+.fa-skype:before{content:"\f17e";}
+.fa-foursquare:before{content:"\f180";}
+.fa-trello:before{content:"\f181";}
+.fa-female:before{content:"\f182";}
+.fa-male:before{content:"\f183";}
+.fa-gittip:before,
+.fa-gratipay:before{content:"\f184";}
+.fa-sun-o:before{content:"\f185";}
+.fa-moon-o:before{content:"\f186";}
+.fa-archive:before{content:"\f187";}
+.fa-bug:before{content:"\f188";}
+.fa-vk:before{content:"\f189";}
+.fa-weibo:before{content:"\f18a";}
+.fa-renren:before{content:"\f18b";}
+.fa-pagelines:before{content:"\f18c";}
+.fa-stack-exchange:before{content:"\f18d";}
+.fa-arrow-circle-o-right:before{content:"\f18e";}
+.fa-arrow-circle-o-left:before{content:"\f190";}
+.fa-toggle-left:before,
+.fa-caret-square-o-left:before{content:"\f191";}
+.fa-dot-circle-o:before{content:"\f192";}
+.fa-wheelchair:before{content:"\f193";}
+.fa-vimeo-square:before{content:"\f194";}
+.fa-turkish-lira:before,
+.fa-try:before{content:"\f195";}
+.fa-plus-square-o:before{content:"\f196";}
+.fa-space-shuttle:before{content:"\f197";}
+.fa-slack:before{content:"\f198";}
+.fa-envelope-square:before{content:"\f199";}
+.fa-wordpress:before{content:"\f19a";}
+.fa-openid:before{content:"\f19b";}
+.fa-institution:before,
+.fa-bank:before,
+.fa-university:before{content:"\f19c";}
+.fa-mortar-board:before,
+.fa-graduation-cap:before{content:"\f19d";}
+.fa-yahoo:before{content:"\f19e";}
+.fa-google:before{content:"\f1a0";}
+.fa-reddit:before{content:"\f1a1";}
+.fa-reddit-square:before{content:"\f1a2";}
+.fa-stumbleupon-circle:before{content:"\f1a3";}
+.fa-stumbleupon:before{content:"\f1a4";}
+.fa-delicious:before{content:"\f1a5";}
+.fa-digg:before{content:"\f1a6";}
+.fa-pied-piper-pp:before{content:"\f1a7";}
+.fa-pied-piper-alt:before{content:"\f1a8";}
+.fa-drupal:before{content:"\f1a9";}
+.fa-joomla:before{content:"\f1aa";}
+.fa-language:before{content:"\f1ab";}
+.fa-fax:before{content:"\f1ac";}
+.fa-building:before{content:"\f1ad";}
+.fa-child:before{content:"\f1ae";}
+.fa-paw:before{content:"\f1b0";}
+.fa-spoon:before{content:"\f1b1";}
+.fa-cube:before{content:"\f1b2";}
+.fa-cubes:before{content:"\f1b3";}
+.fa-behance:before{content:"\f1b4";}
+.fa-behance-square:before{content:"\f1b5";}
+.fa-steam:before{content:"\f1b6";}
+.fa-steam-square:before{content:"\f1b7";}
+.fa-recycle:before{content:"\f1b8";}
+.fa-automobile:before,
+.fa-car:before{content:"\f1b9";}
+.fa-cab:before,
+.fa-taxi:before{content:"\f1ba";}
+.fa-tree:before{content:"\f1bb";}
+.fa-spotify:before{content:"\f1bc";}
+.fa-deviantart:before{content:"\f1bd";}
+.fa-soundcloud:before{content:"\f1be";}
+.fa-database:before{content:"\f1c0";}
+.fa-file-pdf-o:before{content:"\f1c1";}
+.fa-file-word-o:before{content:"\f1c2";}
+.fa-file-excel-o:before{content:"\f1c3";}
+.fa-file-powerpoint-o:before{content:"\f1c4";}
+.fa-file-photo-o:before,
+.fa-file-picture-o:before,
+.fa-file-image-o:before{content:"\f1c5";}
+.fa-file-zip-o:before,
+.fa-file-archive-o:before{content:"\f1c6";}
+.fa-file-sound-o:before,
+.fa-file-audio-o:before{content:"\f1c7";}
+.fa-file-movie-o:before,
+.fa-file-video-o:before{content:"\f1c8";}
+.fa-file-code-o:before{content:"\f1c9";}
+.fa-vine:before{content:"\f1ca";}
+.fa-codepen:before{content:"\f1cb";}
+.fa-jsfiddle:before{content:"\f1cc";}
+.fa-life-bouy:before,
+.fa-life-buoy:before,
+.fa-life-saver:before,
+.fa-support:before,
+.fa-life-ring:before{content:"\f1cd";}
+.fa-circle-o-notch:before{content:"\f1ce";}
+.fa-ra:before,
+.fa-resistance:before,
+.fa-rebel:before{content:"\f1d0";}
+.fa-ge:before,
+.fa-empire:before{content:"\f1d1";}
+.fa-git-square:before{content:"\f1d2";}
+.fa-git:before{content:"\f1d3";}
+.fa-y-combinator-square:before,
+.fa-yc-square:before,
+.fa-hacker-news:before{content:"\f1d4";}
+.fa-tencent-weibo:before{content:"\f1d5";}
+.fa-qq:before{content:"\f1d6";}
+.fa-wechat:before,
+.fa-weixin:before{content:"\f1d7";}
+.fa-send:before,
+.fa-paper-plane:before{content:"\f1d8";}
+.fa-send-o:before,
+.fa-paper-plane-o:before{content:"\f1d9";}
+.fa-history:before{content:"\f1da";}
+.fa-circle-thin:before{content:"\f1db";}
+.fa-header:before{content:"\f1dc";}
+.fa-paragraph:before{content:"\f1dd";}
+.fa-sliders:before{content:"\f1de";}
+.fa-share-alt:before{content:"\f1e0";}
+.fa-share-alt-square:before{content:"\f1e1";}
+.fa-bomb:before{content:"\f1e2";}
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before{content:"\f1e3";}
+.fa-tty:before{content:"\f1e4";}
+.fa-binoculars:before{content:"\f1e5";}
+.fa-plug:before{content:"\f1e6";}
+.fa-slideshare:before{content:"\f1e7";}
+.fa-twitch:before{content:"\f1e8";}
+.fa-yelp:before{content:"\f1e9";}
+.fa-newspaper-o:before{content:"\f1ea";}
+.fa-wifi:before{content:"\f1eb";}
+.fa-calculator:before{content:"\f1ec";}
+.fa-paypal:before{content:"\f1ed";}
+.fa-google-wallet:before{content:"\f1ee";}
+.fa-cc-visa:before{content:"\f1f0";}
+.fa-cc-mastercard:before{content:"\f1f1";}
+.fa-cc-discover:before{content:"\f1f2";}
+.fa-cc-amex:before{content:"\f1f3";}
+.fa-cc-paypal:before{content:"\f1f4";}
+.fa-cc-stripe:before{content:"\f1f5";}
+.fa-bell-slash:before{content:"\f1f6";}
+.fa-bell-slash-o:before{content:"\f1f7";}
+.fa-trash:before{content:"\f1f8";}
+.fa-copyright:before{content:"\f1f9";}
+.fa-at:before{content:"\f1fa";}
+.fa-eyedropper:before{content:"\f1fb";}
+.fa-paint-brush:before{content:"\f1fc";}
+.fa-birthday-cake:before{content:"\f1fd";}
+.fa-area-chart:before{content:"\f1fe";}
+.fa-pie-chart:before{content:"\f200";}
+.fa-line-chart:before{content:"\f201";}
+.fa-lastfm:before{content:"\f202";}
+.fa-lastfm-square:before{content:"\f203";}
+.fa-toggle-off:before{content:"\f204";}
+.fa-toggle-on:before{content:"\f205";}
+.fa-bicycle:before{content:"\f206";}
+.fa-bus:before{content:"\f207";}
+.fa-ioxhost:before{content:"\f208";}
+.fa-angellist:before{content:"\f209";}
+.fa-cc:before{content:"\f20a";}
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before{content:"\f20b";}
+.fa-meanpath:before{content:"\f20c";}
+.fa-buysellads:before{content:"\f20d";}
+.fa-connectdevelop:before{content:"\f20e";}
+.fa-dashcube:before{content:"\f210";}
+.fa-forumbee:before{content:"\f211";}
+.fa-leanpub:before{content:"\f212";}
+.fa-sellsy:before{content:"\f213";}
+.fa-shirtsinbulk:before{content:"\f214";}
+.fa-simplybuilt:before{content:"\f215";}
+.fa-skyatlas:before{content:"\f216";}
+.fa-cart-plus:before{content:"\f217";}
+.fa-cart-arrow-down:before{content:"\f218";}
+.fa-diamond:before{content:"\f219";}
+.fa-ship:before{content:"\f21a";}
+.fa-user-secret:before{content:"\f21b";}
+.fa-motorcycle:before{content:"\f21c";}
+.fa-street-view:before{content:"\f21d";}
+.fa-heartbeat:before{content:"\f21e";}
+.fa-venus:before{content:"\f221";}
+.fa-mars:before{content:"\f222";}
+.fa-mercury:before{content:"\f223";}
+.fa-intersex:before,
+.fa-transgender:before{content:"\f224";}
+.fa-transgender-alt:before{content:"\f225";}
+.fa-venus-double:before{content:"\f226";}
+.fa-mars-double:before{content:"\f227";}
+.fa-venus-mars:before{content:"\f228";}
+.fa-mars-stroke:before{content:"\f229";}
+.fa-mars-stroke-v:before{content:"\f22a";}
+.fa-mars-stroke-h:before{content:"\f22b";}
+.fa-neuter:before{content:"\f22c";}
+.fa-genderless:before{content:"\f22d";}
+.fa-facebook-official:before{content:"\f230";}
+.fa-pinterest-p:before{content:"\f231";}
+.fa-whatsapp:before{content:"\f232";}
+.fa-server:before{content:"\f233";}
+.fa-user-plus:before{content:"\f234";}
+.fa-user-times:before{content:"\f235";}
+.fa-hotel:before,
+.fa-bed:before{content:"\f236";}
+.fa-viacoin:before{content:"\f237";}
+.fa-train:before{content:"\f238";}
+.fa-subway:before{content:"\f239";}
+.fa-medium:before{content:"\f23a";}
+.fa-yc:before,
+.fa-y-combinator:before{content:"\f23b";}
+.fa-optin-monster:before{content:"\f23c";}
+.fa-opencart:before{content:"\f23d";}
+.fa-expeditedssl:before{content:"\f23e";}
+.fa-battery-4:before,
+.fa-battery:before,
+.fa-battery-full:before{content:"\f240";}
+.fa-battery-3:before,
+.fa-battery-three-quarters:before{content:"\f241";}
+.fa-battery-2:before,
+.fa-battery-half:before{content:"\f242";}
+.fa-battery-1:before,
+.fa-battery-quarter:before{content:"\f243";}
+.fa-battery-0:before,
+.fa-battery-empty:before{content:"\f244";}
+.fa-mouse-pointer:before{content:"\f245";}
+.fa-i-cursor:before{content:"\f246";}
+.fa-object-group:before{content:"\f247";}
+.fa-object-ungroup:before{content:"\f248";}
+.fa-sticky-note:before{content:"\f249";}
+.fa-sticky-note-o:before{content:"\f24a";}
+.fa-cc-jcb:before{content:"\f24b";}
+.fa-cc-diners-club:before{content:"\f24c";}
+.fa-clone:before{content:"\f24d";}
+.fa-balance-scale:before{content:"\f24e";}
+.fa-hourglass-o:before{content:"\f250";}
+.fa-hourglass-1:before,
+.fa-hourglass-start:before{content:"\f251";}
+.fa-hourglass-2:before,
+.fa-hourglass-half:before{content:"\f252";}
+.fa-hourglass-3:before,
+.fa-hourglass-end:before{content:"\f253";}
+.fa-hourglass:before{content:"\f254";}
+.fa-hand-grab-o:before,
+.fa-hand-rock-o:before{content:"\f255";}
+.fa-hand-stop-o:before,
+.fa-hand-paper-o:before{content:"\f256";}
+.fa-hand-scissors-o:before{content:"\f257";}
+.fa-hand-lizard-o:before{content:"\f258";}
+.fa-hand-spock-o:before{content:"\f259";}
+.fa-hand-pointer-o:before{content:"\f25a";}
+.fa-hand-peace-o:before{content:"\f25b";}
+.fa-trademark:before{content:"\f25c";}
+.fa-registered:before{content:"\f25d";}
+.fa-creative-commons:before{content:"\f25e";}
+.fa-gg:before{content:"\f260";}
+.fa-gg-circle:before{content:"\f261";}
+.fa-tripadvisor:before{content:"\f262";}
+.fa-odnoklassniki:before{content:"\f263";}
+.fa-odnoklassniki-square:before{content:"\f264";}
+.fa-get-pocket:before{content:"\f265";}
+.fa-wikipedia-w:before{content:"\f266";}
+.fa-safari:before{content:"\f267";}
+.fa-chrome:before{content:"\f268";}
+.fa-firefox:before{content:"\f269";}
+.fa-opera:before{content:"\f26a";}
+.fa-internet-explorer:before{content:"\f26b";}
+.fa-tv:before,
+.fa-television:before{content:"\f26c";}
+.fa-contao:before{content:"\f26d";}
+.fa-500px:before{content:"\f26e";}
+.fa-amazon:before{content:"\f270";}
+.fa-calendar-plus-o:before{content:"\f271";}
+.fa-calendar-minus-o:before{content:"\f272";}
+.fa-calendar-times-o:before{content:"\f273";}
+.fa-calendar-check-o:before{content:"\f274";}
+.fa-industry:before{content:"\f275";}
+.fa-map-pin:before{content:"\f276";}
+.fa-map-signs:before{content:"\f277";}
+.fa-map-o:before{content:"\f278";}
+.fa-map:before{content:"\f279";}
+.fa-commenting:before{content:"\f27a";}
+.fa-commenting-o:before{content:"\f27b";}
+.fa-houzz:before{content:"\f27c";}
+.fa-vimeo:before{content:"\f27d";}
+.fa-black-tie:before{content:"\f27e";}
+.fa-fonticons:before{content:"\f280";}
+.fa-reddit-alien:before{content:"\f281";}
+.fa-edge:before{content:"\f282";}
+.fa-credit-card-alt:before{content:"\f283";}
+.fa-codiepie:before{content:"\f284";}
+.fa-modx:before{content:"\f285";}
+.fa-fort-awesome:before{content:"\f286";}
+.fa-usb:before{content:"\f287";}
+.fa-product-hunt:before{content:"\f288";}
+.fa-mixcloud:before{content:"\f289";}
+.fa-scribd:before{content:"\f28a";}
+.fa-pause-circle:before{content:"\f28b";}
+.fa-pause-circle-o:before{content:"\f28c";}
+.fa-stop-circle:before{content:"\f28d";}
+.fa-stop-circle-o:before{content:"\f28e";}
+.fa-shopping-bag:before{content:"\f290";}
+.fa-shopping-basket:before{content:"\f291";}
+.fa-hashtag:before{content:"\f292";}
+.fa-bluetooth:before{content:"\f293";}
+.fa-bluetooth-b:before{content:"\f294";}
+.fa-percent:before{content:"\f295";}
+.fa-gitlab:before{content:"\f296";}
+.fa-wpbeginner:before{content:"\f297";}
+.fa-wpforms:before{content:"\f298";}
+.fa-envira:before{content:"\f299";}
+.fa-universal-access:before{content:"\f29a";}
+.fa-wheelchair-alt:before{content:"\f29b";}
+.fa-question-circle-o:before{content:"\f29c";}
+.fa-blind:before{content:"\f29d";}
+.fa-audio-description:before{content:"\f29e";}
+.fa-volume-control-phone:before{content:"\f2a0";}
+.fa-braille:before{content:"\f2a1";}
+.fa-assistive-listening-systems:before{content:"\f2a2";}
+.fa-asl-interpreting:before,
+.fa-american-sign-language-interpreting:before{content:"\f2a3";}
+.fa-deafness:before,
+.fa-hard-of-hearing:before,
+.fa-deaf:before{content:"\f2a4";}
+.fa-glide:before{content:"\f2a5";}
+.fa-glide-g:before{content:"\f2a6";}
+.fa-signing:before,
+.fa-sign-language:before{content:"\f2a7";}
+.fa-low-vision:before{content:"\f2a8";}
+.fa-viadeo:before{content:"\f2a9";}
+.fa-viadeo-square:before{content:"\f2aa";}
+.fa-snapchat:before{content:"\f2ab";}
+.fa-snapchat-ghost:before{content:"\f2ac";}
+.fa-snapchat-square:before{content:"\f2ad";}
+.fa-pied-piper:before{content:"\f2ae";}
+.fa-first-order:before{content:"\f2b0";}
+.fa-yoast:before{content:"\f2b1";}
+.fa-themeisle:before{content:"\f2b2";}
+.fa-google-plus-circle:before,
+.fa-google-plus-official:before{content:"\f2b3";}
+.fa-fa:before,
+.fa-font-awesome:before{content:"\f2b4";}
+.fa-handshake-o:before{content:"\f2b5";}
+.fa-envelope-open:before{content:"\f2b6";}
+.fa-envelope-open-o:before{content:"\f2b7";}
+.fa-linode:before{content:"\f2b8";}
+.fa-address-book:before{content:"\f2b9";}
+.fa-address-book-o:before{content:"\f2ba";}
+.fa-vcard:before,
+.fa-address-card:before{content:"\f2bb";}
+.fa-vcard-o:before,
+.fa-address-card-o:before{content:"\f2bc";}
+.fa-user-circle:before{content:"\f2bd";}
+.fa-user-circle-o:before{content:"\f2be";}
+.fa-user-o:before{content:"\f2c0";}
+.fa-id-badge:before{content:"\f2c1";}
+.fa-drivers-license:before,
+.fa-id-card:before{content:"\f2c2";}
+.fa-drivers-license-o:before,
+.fa-id-card-o:before{content:"\f2c3";}
+.fa-quora:before{content:"\f2c4";}
+.fa-free-code-camp:before{content:"\f2c5";}
+.fa-telegram:before{content:"\f2c6";}
+.fa-thermometer-4:before,
+.fa-thermometer:before,
+.fa-thermometer-full:before{content:"\f2c7";}
+.fa-thermometer-3:before,
+.fa-thermometer-three-quarters:before{content:"\f2c8";}
+.fa-thermometer-2:before,
+.fa-thermometer-half:before{content:"\f2c9";}
+.fa-thermometer-1:before,
+.fa-thermometer-quarter:before{content:"\f2ca";}
+.fa-thermometer-0:before,
+.fa-thermometer-empty:before{content:"\f2cb";}
+.fa-shower:before{content:"\f2cc";}
+.fa-bathtub:before,
+.fa-s15:before,
+.fa-bath:before{content:"\f2cd";}
+.fa-podcast:before{content:"\f2ce";}
+.fa-window-maximize:before{content:"\f2d0";}
+.fa-window-minimize:before{content:"\f2d1";}
+.fa-window-restore:before{content:"\f2d2";}
+.fa-times-rectangle:before,
+.fa-window-close:before{content:"\f2d3";}
+.fa-times-rectangle-o:before,
+.fa-window-close-o:before{content:"\f2d4";}
+.fa-bandcamp:before{content:"\f2d5";}
+.fa-grav:before{content:"\f2d6";}
+.fa-etsy:before{content:"\f2d7";}
+.fa-imdb:before{content:"\f2d8";}
+.fa-ravelry:before{content:"\f2d9";}
+.fa-eercast:before{content:"\f2da";}
+.fa-microchip:before{content:"\f2db";}
+.fa-snowflake-o:before{content:"\f2dc";}
+.fa-superpowers:before{content:"\f2dd";}
+.fa-wpexplorer:before{content:"\f2de";}
+.fa-meetup:before{content:"\f2e0";}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);border:0;}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+position: static;
+width: auto;
+height: auto;
+margin: 0;
+overflow: visible;
+clip: auto;
+}#testimonials ul{margin:0;padding:0;}
+#testimonials ul li, #testimonials ul li a{list-style:none;background:transparent;border:none !important}
+.tm_thumb{width:10%;float:left;}
+#testimonials ul li img{}
+#testimonials ul li .tm_description{width:87%;float:right;padding:0px;}
+#testimonials ul li .tm_description p{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/testimonialsrotator/images/quote.html) no-repeat left 5px;font-size:14px;line-height:24px;margin-bottom:0;padding-left:45px;}
+#testimonials ul li h6{font-size:13px;font-weight:600;margin:20px 0 0 45px;color:#E19105;}
+#testimonials ul li span a{color:#3c3b3b;}
+#testimonials ul li span a:hover{opacity:0.6;}
+#testimonials ul li span cite{text-transform:uppercase;}
+.quotes{width:100%;margin:0 auto;}
+.quovolve-box{position:relative;min-height:140px;}
+.quovolve-nav span a{width:30px;height:61px;display:inline-block;text-indent:-9999px;position:absolute;top:2%;}
+.quovolve-nav span.nav-prev{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/arrow_prev.html) no-repeat left top;position:absolute;width:16px;height:16px;bottom:0;right:20px;}
+.quovolve-nav span.nav-next{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/arrow_next.html) no-repeat right top;position:absolute;width:16px;height:16px;bottom:0;right:0;float:none;margin:0;}
+ol.nav-numbers{text-align:center;position:absolute;bottom:0%;left:50%;display:none;}
+ol.nav-numbers li{list-style:none;display:inline-block;margin-right:5px;}
+ol.nav-numbers li a{background-color:#464d51;border:2px solid #464d51;width:8px;height:8px;border-radius:50%;display:inline-block;font-size:0px;}
+ol.nav-numbers li.active a{ background-color:#fff; border:2px solid #333; }@media screen and (max-width:767px) {
+.headtop-inner{width:auto;padding:10px 20px;}
+.header-top .left, .header-top .right{padding:0;}
+.header-top .left, .header-top .right{float:none !important;text-align:center !important;}
+.header-top .right .social-icons{float:none;display:table;margin:0 auto;}
+.boxlayout{width:auto;margin:0 20px;box-sizing:border-box;}
+.container{width:auto;padding:0 20px;}
+.header{position:relative;padding:20px 0;}
+.header_right{float:none;text-align:center;width:auto;margin-top:15px;padding:0;}
+.header_right .right-box{float:none;width:240px;text-align:center;margin:0 auto 20px;}
+.header-top{text-align:center;line-height:25px;}
+.header-top .left span{display:inline-block;float:none;}
+.headerinfo{padding:10px 0;}
+.logo{width:auto;float:none;text-align:center;padding:0;margin-bottom:10px;}
+.logo img{margin:0 auto;}
+blockquote{background-position:0 top;padding-left:20px !important;}
+.get_a_quote{float:none;margin-top:20px;}
+.get_a_quote a{-ms-transform:skewX(0deg);-webkit-transform:skewX(0deg);transform:skewX(0deg);text-align:center;line-height:46px;}
+#slider .nivo-controlNav{display:none;}
+#slider .nivo-caption{width:72%;left:0;right:0;margin:0 auto;bottom:30%;padding:10px;}
+#slider .nivo-caption p{display:none;}
+#slider .nivo-caption h2{font-size:20px;line-height:18px;text-align:center;margin:0;}
+#slider .nivo-caption a.button, #slider .nivo-caption a.quotebtn, #slider .nivo-caption h6{display:none;}
+h2.section_title{font-size:25px !important;width:auto;margin-bottom:30px;}
+#ser-full .container, #ser-full .services{padding:0;}
+.services .services-box{width:auto;float:none;margin:0 0 30px;}
+ul.portfoliofilter li{margin-bottom:0;}
+#mixitup .mix{width:100%;width:-webkit-calc(100%) !important;width:-moz-calc(100%) !important;width:calc(100%) !important;margin-right:0 !important;}
+.quote_for{width:auto;float:none;}
+.quote-box{width:auto;margin:0 0 30px;}
+.quote_form{width:87.5%;float:left;padding:20px;}
+div.counter{width:200px;margin:0 auto;}
+.counter-box{margin:0 auto 30px;}
+.teammember-list{width:auto;margin:15px 0;float:none;}
+.request-form input[type="text"], .request-form input[type="email"], .request-form input[type="tel"], .request-form textarea{width:91%;}
+#clienttestiminials p{width:100%;}
+.news-box{width:auto;float:none;margin-right:0;}
+.news-thumb .post-date{bottom:8px;}
+.news-box.last{margin-top:0;}
+.news-box .news-thumb{visibility:visible;width:auto;height:auto;}
+.designby a:hover{color:#000000 !important;}
+.one_half, .one_third, .two_third, .one_fourth, .three_fourth, .one_fifth, .four_fifth, .services-col, .services-wrap .one_third, #wrapperthree .one_half{float:none !important;width:100% !important;margin:0 0 30px !important;}
+.innerbanner{height:auto;}
+.fourcol .entry{width:auto !important;}
+.tabs-wrapper ul.tabs li a{padding:10px 14px;}
+.cols-3 .social-icons a{display:inline-block;}
+#sidebar{width:100%;float:none;}
+.sidebar-left{float:none !important;width:100%;}
+.flotRight{float:none !important;}
+#sidebar .services-col .services-content{padding:8% 11.5%;}
+#sidebar #contactform_main input[type=text], #sidebar #contactform_main input[type=email], #sidebar #contactform_main input[type=tel],#sidebar #contactform_main input[type=url], #sidebar #contactform_main textarea{width:85%;}
+#sidebar .search-form input.search-submit, #sidebar .search-form input.search-field{margin-top:20px;}
+.testimonials-wrap h2.section_title{margin-bottom:30px;font-size:20px;}
+.testimonials-wrap .owl-prev{right:11%;}
+.cols-3{width:100% !important;float:none;margin:0;padding:15px 0;border-right:none;min-height:auto;}
+.contactdetail .fa{margin-right:10px;}
+ul.recent-post li{margin:0 15px 15px 0;}
+ul.recent-post li:nth-child(3n+3){margin-right:15px;}
+.content-area{width:auto;margin:0;padding:20px;}
+.site-main{width:auto;margin:0;padding:0;float:none;}
+h1.entry-title{font-size:25px;}
+.contact_left, .contact_right{float:none;width:100%;margin-bottom:10%;}
+.copyright-txt{margin-bottom:10px;}
+.copyright-txt, .designby{text-align:center;float:none;}
+.copyright-menu ul li{float:none;}
+#contactform_main input[type="text"], #contactform_main input[type="email"], #contactform_main input[type="tel"], #contactform_main input[type="url"], #contactform_main textarea{width:90%;}
+.searchbox{width:100%;padding-left:0;}
+.item{padding-left:0;width:auto;}
+ol.nav-numbers{display:none;}
+#testimonials ul li .tm_description p{text-align:left;}
+#back-top{right:5px;}
+}
+@media screen and (min-width:300px) and (max-width: 480px){
+.say_thumb{float:none;position:inherit;left:0;display:table;margin:0 auto;width:auto;}
+.blog-post-repeat .post-thumb img{float:none;margin-right:0;width:100%;height:100%;}
+.slider-main{min-height:110px;height:auto;}
+.nivo-directionNav a{top:38%;}
+.fivecol .entry{width:auto !important;}
+}
+@media screen and (min-width:481px) and (max-width: 767px){
+.container, .content-area, #ourservices .container{width:400px;margin:0 auto;}
+.slider-main{height:auto;min-height:200px;}
+.nivo-caption{left:0;}
+}
+@media screen and (min-width:420px) and (max-width: 480px){
+.nivo-caption h2{font-size:26px !important;line-height:32px !important;}
+.fourcol .entry{left:6% !important;}
+ul.portfoliofilter li a{font-size:12px !important;padding:7px 12px !important;}
+.thumnailbx .thumb-shape{bottom:-10px;}
+} @media screen and (min-width:481px) and (max-width: 767px){	
+.headertop .left{float:left;}
+.headertop .right{float:right;}
+.headertop{padding-bottom:0;}
+.nivo-caption{width:75%;left:0;bottom:16%;}
+.nivo-caption h2{font-size:30px !important;line-height:35px !important;margin-bottom:10px !important;}
+.nivo-caption p{display:none !important;line-height:18px;width:100% !important;}
+.nivo-caption, .nivo-controlNav{display:block !important;}
+h2.section_title{font-size:30px !important;}
+}
+@media screen and (min-width:481px) and (max-width: 615px){
+.nivo-caption{width:70%;bottom:10%;left:0;}
+.nivo-caption h2{font-size:24px !important;}
+} @media screen and (max-width:1169px) and (min-width:768px) { 
+.container, .header-inner{width:auto;padding:0 20px;}
+.boxlayout{width:auto;margin:0 20px;box-sizing:border-box;}
+.content-area{width:auto;margin:0;padding:20px 20px;}
+.testimonials-wrap .owl-prev{right:4.5%;}
+.cols-3 h5{font-size:20px !important;}
+#sidebar{width:30%;}
+.site-main{width:65%;}
+.slider-main{min-height:260px;height:auto;}
+.innerbanner{height:auto;}
+.BlogPost{min-height:250px;}
+.recent-post h6{padding-top:7px;}
+ol.nav-numbers{bottom:10%;}
+.sidebar-left{float:left !important;width:30%;}
+.sidebar-left #sidebar{width:100%;}
+}
+@media screen and (min-width:768px) and (max-width: 980px){
+.header{padding:0;position:relative;top:0;}
+.headtop-inner{width:95%;}
+.toggle a{margin-top:0;}
+.logo{float:left;text-align:left;width:34%;padding-top:20px;}
+.header_right{float:right;width:65%;padding:20px 0 0 0;}
+.headerinfo{padding-bottom:10px;}
+.header_right .contact{display:none;}
+.right-box{width:230px;}
+.navigation{margin-top:30px;padding:0 0 20px 0 !important;}
+.navigation .toggle, .navigation .sitenav{width:76%;float:left;}
+.navigation .get_a_quote{width:24%;float:right;position:absolute !important;top:0 !important;}
+.navigation .get_a_quote a{-ms-transform:skewX(0deg);-webkit-transform:skewX(0deg);transform:skewX(0deg);line-height:42px;text-align:center;padding:0 34px;}
+.nivo-caption{width:60%;left:45px;bottom:10%;padding:25px;}
+.nivo-controlNav{bottom:0;}
+.nivoSlider .nivo-caption h2{font-size:22px;display:block;line-height:28px;}
+.nivoSlider .nivo-caption h6{font-size:14px;display:block;}
+h2.section_title{margin-bottom:20px;}
+.services-box{margin-right:20px;width:31.4%;}
+.quote_for{width:50%;}
+.quote-box{width:92%;}
+.quote_form{margin-top:30px;}
+.teammember-list{margin:20px 23px 0 0;}
+.news-box{width:30.9%;margin-right:25px;margin-bottom:0;}
+.news-box .PostMeta{font-size:11px;}
+.fourcol .entry{width:243px !important;}
+.cols-3{font-size:14px;margin-right:13px;padding-right:12px;height:380px;}
+.cols-3.widget-column-3{margin-right:0;padding-right:0;}
+.cols-3 .social-icons a{width:40px;height:40px;line-height:40px;margin-right:10px;display:inline-block;}
+.contactdetail .fa{margin-right:15px;}
+.copyright-txt, .designby{width:auto;display:inline-block;margin:5px 0;}
+}
+@media screen and (min-width:768px) and (max-width: 868px){
+.nivo-caption{width:90%;}
+}
+@media screen and (max-width:1169px) and (min-width:981px) { 
+html{overflow-x:hidden;}
+.headtop-inner{width:95%;}
+.fourcol .entry{width:337px !important;}
+.nivo-caption{width:80%;!important;left:45px;bottom:12%;padding:20px;}
+.nivoSlider .nivo-caption h2{font-size:28px;display:block;line-height:28px;}
+.nivoSlider .nivo-caption h6{font-size:16px;display:block;}
+.navigation{width:94%;margin:0 auto;}
+.services-box{width:31.2%;}
+.quote-box{margin-right:20px;}
+.counter-box{margin:0 12px 0 0;}
+.news-box{margin-right:18px;width:32%;}
+.cols-3{margin-right:17px;width:30.8%;padding-right:17px;height:400px;}
+.cols-3.widget-column-3{margin-right:0;padding-right:0;}
+.cols-3 h5{font-size:24px !important;}
+.cols-3 .social-icons a{display:inline-block;}
+ul.footerlist li{width:49%;}
+}
+@media screen and (max-width: 980px){	
+section{ padding:40px 0;}
+.nav-inner { width:95%; position:relative;}
+.navigation{ position:relative; -ms-transform: skewX(0deg); -webkit-transform: skewX(0deg); transform: skewX(0deg); background-color:transparent !important; padding:0; top:0; } 
+.toggleMenu{display: block; padding-left:10px !important;}
+.sitenav{float:none; margin:0; top:0; position:relative; overflow-x:hidden;}
+.header_right .sitenav ul{color:#ffffff; width:100% !important; float:none !important; margin:0; padding:0; background-color:#483b33;}
+.sitenav ul li{border-top:1px #000000 solid; display:block; float:none; text-align:left; border-right:none;}
+.header_right .sitenav ul li a{padding:5px 10px; display:block; color:#ffffff; text-align:left; font-weight:normal; }
+.sitenav ul li a{ -ms-transform: skewX(0deg); -webkit-transform: skewX(0deg); transform: skewX(0deg); text-align:left; padding: 8px 12px;}
+.sitenav ul li a:hover, .sitenav ul li.current_page_item a, .sitenav ul li:hover a.parent{ color:#c49454 !important; background:none !important;}
+.sitenav ul li ul, .sitenav ul li ul ul{ display:block !important;}
+.sitenav ul li ul li a:before{content:"\00BB \00a0";}
+.sitenav ul li ul li{ border-bottom:1px solid transparent!important; border-right:none;}
+.sitenav ul li ul li a{padding-left:20px !important;}
+.sitenav ul li ul li ul li a{padding-left:30px !important;}
+.sitenav ul li ul li ul li ul li a{padding-left:40px !important;}
+.sitenav ul li:hover > ul{ background:none !important; width:auto !important; display:block; position: relative !important; left:0; right:0; top:0; -ms-transform: skewX(0deg); -webkit-transform: skewX(0deg); transform: skewX(0deg);}
+.sitenav ul li:hover ul li ul, .sitenav ul li:hover ul li:hover > ul, .sitenav ul li:hover ul li:hover > ul li ul{  background: transparent !important; display:block; position:relative !important;  right:0; left:0; top:0;}
+.sitenav ul li:hover ul li:hover ul, .sitenav ul li:hover ul li:hover ul li:hover ul{ left:0 !important;}
+.logo img{ height:auto;}
+.innerbanner{ height:auto;}
+}.owl-carousel .animated{-webkit-animation-duration:1000ms;animation-duration:1000ms;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+.owl-carousel .owl-animated-in{z-index:0;}
+.owl-carousel .owl-animated-out{z-index:1;}
+.owl-carousel .fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut;}
+@-webkit-keyframes fadeOut {
+0%{opacity:1;}
+100%{opacity:0;}
+}
+@keyframes fadeOut {
+0%{opacity:1;}
+100%{opacity:0;}
+} .owl-height{-webkit-transition:height 500ms ease-in-out;-moz-transition:height 500ms ease-in-out;-ms-transition:height 500ms ease-in-out;-o-transition:height 500ms ease-in-out;transition:height 500ms ease-in-out;}
+.owl-carousel{display:none;width:100%;-webkit-tap-highlight-color:transparent;position:relative;z-index:1;}
+.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y;}
+.owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;width:100%;margin:0 auto;-webkit-transform:translate3d(0px, 0px, 0px);}
+.owl-carousel .owl-controls .owl-nav .owl-prev,
+.owl-carousel .owl-controls .owl-nav .owl-next,
+.owl-carousel .owl-controls .owl-dot{cursor:pointer;cursor:hand;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.owl-carousel.owl-loaded{display:block;}
+.owl-carousel.owl-loading{opacity:0;display:block;}
+.owl-carousel.owl-hidden{opacity:0;}
+.owl-carousel .owl-refresh .owl-item{display:none;}
+.owl-carousel .owl-item{position:relative;min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.owl-carousel .owl-item img{display:block;width:100%;-webkit-transform-style:preserve-3d;}
+.owl-carousel.owl-text-select-on .owl-item{-webkit-user-select:auto;-moz-user-select:auto;-ms-user-select:auto;user-select:auto;}
+.owl-carousel .owl-grab{cursor:move;cursor:-webkit-grab;cursor:-o-grab;cursor:-ms-grab;cursor:grab;}
+.owl-carousel.owl-rtl{direction:rtl;}
+.owl-carousel.owl-rtl .owl-item{float:right;}
+.no-js .owl-carousel{display:block;}
+.owl-carousel .owl-item .owl-lazy{opacity:0;-webkit-transition:opacity 400ms ease;-moz-transition:opacity 400ms ease;-ms-transition:opacity 400ms ease;-o-transition:opacity 400ms ease;transition:opacity 400ms ease;}
+.owl-carousel .owl-item img{transform-style:preserve-3d;}
+.owl-carousel .owl-video-wrapper{position:relative;height:100%;background:#000;}
+.owl-carousel .owl-video-play-icon{position:absolute;height:80px;width:80px;left:50%;top:50%;margin-left:-40px;margin-top:-40px;background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/testimonialsrotator/js/owl.video.play.html) no-repeat;cursor:pointer;z-index:1;-webkit-backface-visibility:hidden;-webkit-transition:scale 100ms ease;-moz-transition:scale 100ms ease;-ms-transition:scale 100ms ease;-o-transition:scale 100ms ease;transition:scale 100ms ease;}
+.owl-carousel .owl-video-play-icon:hover{-webkit-transition:scale(1.3, 1.3);-moz-transition:scale(1.3, 1.3);-ms-transition:scale(1.3, 1.3);-o-transition:scale(1.3, 1.3);transition:scale(1.3, 1.3);}
+.owl-carousel .owl-video-playing .owl-video-tn,
+.owl-carousel .owl-video-playing .owl-video-play-icon{display:none;}
+.owl-carousel .owl-video-tn{opacity:0;height:100%;background-position:center center;background-repeat:no-repeat;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;background-size:contain;-webkit-transition:opacity 400ms ease;-moz-transition:opacity 400ms ease;-ms-transition:opacity 400ms ease;-o-transition:opacity 400ms ease;transition:opacity 400ms ease;}
+.owl-carousel .owl-video-frame{position:relative;z-index:1;}
+.owl-controls{position:absolute;bottom:-45px;width:100%;}
+.owl-prev, .owl-next{position:absolute;width:31px;height:31px;font-size:0;}
+.owl-prev{background:#5c5c5c url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/client-arrow-prev.html) no-repeat center center;left:3%;}
+.owl-next{background:#5c5c5c url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/client-arrow-next.html) no-repeat center center;right:3%;}
+.owl-carousel .owl-item h5{position:absolute;background-color:rgba(0,0,0,0.6);bottom:0;text-align:center;color:#fff;padding:5px 0;width:100%;margin:0;z-index:999;font-size:16px;}
+.owl-controls .owl-dot{width:13px;height:13px;background-color:#ffffff;border-radius:50%;display:inline-block;margin:0 0 0 8px;}
+.owl-controls .owl-dot.active{background-color:#c49454;}.portfoliowrap{overflow:visible;position:relative;margin-left:0;}
+.portfolio{overflow:visible !important;position:relative;}
+.portfolio img{width:100%;max-width:none !important;height:auto;display:block;}
+.threecol .entry{width:393px;float:left;overflow:visible;position:relative;}
+.fourcol .entry{width:25%;float:left;overflow:visible;position:relative;}
+.fivecol .entry{width:275px;float:left;overflow:visible;position:relative;}
+ul.portfoliofilter{margin:0;padding:0;margin-bottom:30px;margin-top:0px;width:100%;padding-bottom:0px;text-align:center;font-weight:bold;color:#444444;}
+ul.portfoliofilter li{display:inline-block;margin-right:0px;margin-bottom:10px;font-weight:bold;font-family:'Montserrat';color:#444444;text-transform:none;font-weight:700;font-size:14px;line-height:30px;text-shadow:none !important;-webkit-box-shadow:none !important;-moz-box-shadow:none !important;box-shadow:none !important;padding:10px 10px;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-order-sizing:border-box;text-transform:uppercase;}
+ul.portfoliofilter li:hover, ul.portfoliofilter li a:hover{cursor:pointer;color:#f7b200}
+ul.portfoliofilter li.active{color:#f7b200}
+.isotope-item{z-index:2;}
+.isotope-hidden.isotope-item{pointer-events:none;z-index:1;}
+.isotope,
+.mix{-webkit-transition-duration:0.5s;-moz-transition-duration:0.5s;transition-duration:0.5s;}
+.isotope{-webkit-transition-property:height, width;-moz-transition-property:height, width;transition-property:height, width;margin-top:60px;}
+.mix{-webkit-transition-property:-webkit-transform, opacity;-moz-transition-property:-moz-transform, opacity;transition-property:transform, opacity;}
+.holderwrap{position:relative;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-order-sizing:border-box;background-color:#c49454;}
+.holderwrap h5{display:none;}
+.holderwrap:hover img{opacity:0.2;}
+.controls{display:inline-block;width:180px;margin:0 0 30px;vertical-align:top;}
+.controls li{margin-left:20px;cursor:pointer;list-style-type:square;}
+.controls li.active{font-weight:700;}
+#mixitup{width:auto;text-align:justify;font-size:0.1px;}
+#mixitup .mix{display:none;opacity:0;width:30.4%;width:-webkit-calc(33.3333% - 2rem);width:-moz-calc(33.3333% - 2rem);width:calc(33.3333% - 2rem);margin-right:2rem;vertical-align:top;margin-bottom:2rem;font-size:30px;text-align:center;-webkit-transition:ease;}
+#mixitup .mix img{ 	display:block; width:100%; height:auto; }div.pp_default .pp_top,div.pp_default .pp_top .pp_middle,div.pp_default .pp_top .pp_left,div.pp_default .pp_top .pp_right,div.pp_default .pp_bottom,div.pp_default .pp_bottom .pp_left,div.pp_default .pp_bottom .pp_middle,div.pp_default .pp_bottom .pp_right{height:13px}
+div.pp_default .pp_top .pp_left{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite.html) -78px -93px no-repeat}
+div.pp_default .pp_top .pp_middle{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite_x.html) top left repeat-x}
+div.pp_default .pp_top .pp_right{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite.html) -112px -93px no-repeat}
+div.pp_default .pp_content .ppt{color:#f8f8f8}
+div.pp_default .pp_content_container .pp_left{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite_y.html) -7px 0 repeat-y;padding-left:13px}
+div.pp_default .pp_content_container .pp_right{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite_y.html) top right repeat-y;padding-right:13px}
+div.pp_default .pp_next:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite_next.html) center right no-repeat;cursor:pointer}
+div.pp_default .pp_previous:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite_prev.html) center left no-repeat;cursor:pointer}
+div.pp_default .pp_expand{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite.html) 0 -29px no-repeat;cursor:pointer;height:28px;width:28px}
+div.pp_default .pp_expand:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite.html) 0 -56px no-repeat;cursor:pointer}
+div.pp_default .pp_contract{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite.html) 0 -84px no-repeat;cursor:pointer;height:28px;width:28px}
+div.pp_default .pp_contract:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite.html) 0 -113px no-repeat;cursor:pointer}
+div.pp_default .pp_close{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite.html) 2px 1px no-repeat;cursor:pointer;height:30px;width:30px}
+div.pp_default .pp_gallery ul li a{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/default_thumb.html) center center #f8f8f8;border:1px solid #aaa}
+div.pp_default .pp_social{margin-top:7px}
+div.pp_default .pp_gallery a.pp_arrow_previous,div.pp_default .pp_gallery a.pp_arrow_next{left:auto;position:static}
+div.pp_default .pp_nav .pp_play,div.pp_default .pp_nav .pp_pause{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite.html) -51px 1px no-repeat;height:30px;width:30px}
+div.pp_default .pp_nav .pp_pause{background-position:-51px -29px}
+div.pp_default a.pp_arrow_previous,div.pp_default a.pp_arrow_next{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite.html) -31px -3px no-repeat;height:20px;margin:4px 0 0;width:20px}
+div.pp_default a.pp_arrow_next{background-position:-82px -3px;left:52px}
+div.pp_default .pp_content_container .pp_details{margin-top:5px}
+div.pp_default .pp_nav{clear:none;height:30px;position:relative;width:110px}
+div.pp_default .pp_nav .currentTextHolder{color:#999;font-family:Georgia;font-size:11px;font-style:italic;left:75px;line-height:25px;margin:0;padding:0 0 0 10px;position:absolute;top:2px}
+div.pp_default .pp_close:hover,div.pp_default .pp_nav .pp_play:hover,div.pp_default .pp_nav .pp_pause:hover,div.pp_default .pp_arrow_next:hover,div.pp_default .pp_arrow_previous:hover{opacity:0.7}
+div.pp_default .pp_description{font-size:11px;font-weight:700;line-height:14px;margin:5px 50px 5px 0}
+div.pp_default .pp_bottom .pp_left{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite.html) -78px -127px no-repeat}
+div.pp_default .pp_bottom .pp_middle{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite_x.html) bottom left repeat-x}
+div.pp_default .pp_bottom .pp_right{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/sprite.html) -112px -127px no-repeat}
+div.pp_default .pp_loaderIcon{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/default/loader.html) center center no-repeat}
+div.light_rounded .pp_top .pp_left{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/sprite.html) -88px -53px no-repeat}
+div.light_rounded .pp_top .pp_right{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/sprite.html) -110px -53px no-repeat}
+div.light_rounded .pp_next:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/btnNext.html) center right no-repeat;cursor:pointer}
+div.light_rounded .pp_previous:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/btnPrevious.html) center left no-repeat;cursor:pointer}
+div.light_rounded .pp_expand{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/sprite.html) -31px -26px no-repeat;cursor:pointer}
+div.light_rounded .pp_expand:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/sprite.html) -31px -47px no-repeat;cursor:pointer}
+div.light_rounded .pp_contract{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/sprite.html) 0 -26px no-repeat;cursor:pointer}
+div.light_rounded .pp_contract:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/sprite.html) 0 -47px no-repeat;cursor:pointer}
+div.light_rounded .pp_close{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/sprite.html) -1px -1px no-repeat;cursor:pointer;height:22px;width:75px}
+div.light_rounded .pp_nav .pp_play{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/sprite.html) -1px -100px no-repeat;height:15px;width:14px}
+div.light_rounded .pp_nav .pp_pause{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/sprite.html) -24px -100px no-repeat;height:15px;width:14px}
+div.light_rounded .pp_arrow_previous{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/sprite.html) 0 -71px no-repeat}
+div.light_rounded .pp_arrow_next{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/sprite.html) -22px -71px no-repeat}
+div.light_rounded .pp_bottom .pp_left{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/sprite.html) -88px -80px no-repeat}
+div.light_rounded .pp_bottom .pp_right{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/sprite.html) -110px -80px no-repeat}
+div.dark_rounded .pp_top .pp_left{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/sprite.html) -88px -53px no-repeat}
+div.dark_rounded .pp_top .pp_right{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/sprite.html) -110px -53px no-repeat}
+div.dark_rounded .pp_content_container .pp_left{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/contentPattern.html) top left repeat-y}
+div.dark_rounded .pp_content_container .pp_right{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/contentPattern.html) top right repeat-y}
+div.dark_rounded .pp_next:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/btnNext.html) center right no-repeat;cursor:pointer}
+div.dark_rounded .pp_previous:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/btnPrevious.html) center left no-repeat;cursor:pointer}
+div.dark_rounded .pp_expand{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/sprite.html) -31px -26px no-repeat;cursor:pointer}
+div.dark_rounded .pp_expand:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/sprite.html) -31px -47px no-repeat;cursor:pointer}
+div.dark_rounded .pp_contract{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/sprite.html) 0 -26px no-repeat;cursor:pointer}
+div.dark_rounded .pp_contract:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/sprite.html) 0 -47px no-repeat;cursor:pointer}
+div.dark_rounded .pp_close{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/sprite.html) -1px -1px no-repeat;cursor:pointer;height:22px;width:75px}
+div.dark_rounded .pp_description{color:#fff;margin-right:85px}
+div.dark_rounded .pp_nav .pp_play{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/sprite.html) -1px -100px no-repeat;height:15px;width:14px}
+div.dark_rounded .pp_nav .pp_pause{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/sprite.html) -24px -100px no-repeat;height:15px;width:14px}
+div.dark_rounded .pp_arrow_previous{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/sprite.html) 0 -71px no-repeat}
+div.dark_rounded .pp_arrow_next{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/sprite.html) -22px -71px no-repeat}
+div.dark_rounded .pp_bottom .pp_left{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/sprite.html) -88px -80px no-repeat}
+div.dark_rounded .pp_bottom .pp_right{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/sprite.html) -110px -80px no-repeat}
+div.dark_rounded .pp_loaderIcon{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/loader.html) center center no-repeat}
+div.dark_square .pp_left,div.dark_square .pp_middle,div.dark_square .pp_right,div.dark_square .pp_content{background:#000}
+div.dark_square .pp_description{color:#fff;margin:0 85px 0 0}
+div.dark_square .pp_loaderIcon{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_square/loader.html) center center no-repeat}
+div.dark_square .pp_expand{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_square/sprite.html) -31px -26px no-repeat;cursor:pointer}
+div.dark_square .pp_expand:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_square/sprite.html) -31px -47px no-repeat;cursor:pointer}
+div.dark_square .pp_contract{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_square/sprite.html) 0 -26px no-repeat;cursor:pointer}
+div.dark_square .pp_contract:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_square/sprite.html) 0 -47px no-repeat;cursor:pointer}
+div.dark_square .pp_close{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_square/sprite.html) -1px -1px no-repeat;cursor:pointer;height:22px;width:75px}
+div.dark_square .pp_nav{clear:none}
+div.dark_square .pp_nav .pp_play{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_square/sprite.html) -1px -100px no-repeat;height:15px;width:14px}
+div.dark_square .pp_nav .pp_pause{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_square/sprite.html) -24px -100px no-repeat;height:15px;width:14px}
+div.dark_square .pp_arrow_previous{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_square/sprite.html) 0 -71px no-repeat}
+div.dark_square .pp_arrow_next{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_square/sprite.html) -22px -71px no-repeat}
+div.dark_square .pp_next:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_square/btnNext.html) center right no-repeat;cursor:pointer}
+div.dark_square .pp_previous:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_square/btnPrevious.html) center left no-repeat;cursor:pointer}
+div.light_square .pp_expand{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_square/sprite.html) -31px -26px no-repeat;cursor:pointer}
+div.light_square .pp_expand:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_square/sprite.html) -31px -47px no-repeat;cursor:pointer}
+div.light_square .pp_contract{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_square/sprite.html) 0 -26px no-repeat;cursor:pointer}
+div.light_square .pp_contract:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_square/sprite.html) 0 -47px no-repeat;cursor:pointer}
+div.light_square .pp_close{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_square/sprite.html) -1px -1px no-repeat;cursor:pointer;height:22px;width:75px}
+div.light_square .pp_nav .pp_play{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_square/sprite.html) -1px -100px no-repeat;height:15px;width:14px}
+div.light_square .pp_nav .pp_pause{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_square/sprite.html) -24px -100px no-repeat;height:15px;width:14px}
+div.light_square .pp_arrow_previous{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_square/sprite.html) 0 -71px no-repeat}
+div.light_square .pp_arrow_next{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_square/sprite.html) -22px -71px no-repeat}
+div.light_square .pp_next:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_square/btnNext.html) center right no-repeat;cursor:pointer}
+div.light_square .pp_previous:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_square/btnPrevious.html) center left no-repeat;cursor:pointer}
+div.facebook .pp_top .pp_left{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/sprite.html) -88px -53px no-repeat}
+div.facebook .pp_top .pp_middle{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/contentPatternTop.html) top left repeat-x}
+div.facebook .pp_top .pp_right{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/sprite.html) -110px -53px no-repeat}
+div.facebook .pp_content_container .pp_left{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/contentPatternLeft.html) top left repeat-y}
+div.facebook .pp_content_container .pp_right{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/contentPatternRight.html) top right repeat-y}
+div.facebook .pp_expand{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/sprite.html) -31px -26px no-repeat;cursor:pointer}
+div.facebook .pp_expand:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/sprite.html) -31px -47px no-repeat;cursor:pointer}
+div.facebook .pp_contract{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/sprite.html) 0 -26px no-repeat;cursor:pointer}
+div.facebook .pp_contract:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/sprite.html) 0 -47px no-repeat;cursor:pointer}
+div.facebook .pp_close{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/sprite.html) -1px -1px no-repeat;cursor:pointer;height:22px;width:22px}
+div.facebook .pp_description{margin:0 37px 0 0}
+div.facebook .pp_loaderIcon{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/loader.html) center center no-repeat}
+div.facebook .pp_arrow_previous{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/sprite.html) 0 -71px no-repeat;height:22px;margin-top:0;width:22px}
+div.facebook .pp_arrow_previous.disabled{background-position:0 -96px;cursor:default}
+div.facebook .pp_arrow_next{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/sprite.html) -32px -71px no-repeat;height:22px;margin-top:0;width:22px}
+div.facebook .pp_arrow_next.disabled{background-position:-32px -96px;cursor:default}
+div.facebook .pp_nav{margin-top:0}
+div.facebook .pp_nav p{font-size:15px;padding:0 3px 0 4px}
+div.facebook .pp_nav .pp_play{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/sprite.html) -1px -123px no-repeat;height:22px;width:22px}
+div.facebook .pp_nav .pp_pause{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/sprite.html) -32px -123px no-repeat;height:22px;width:22px}
+div.facebook .pp_next:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/btnNext.html) center right no-repeat;cursor:pointer}
+div.facebook .pp_previous:hover{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/btnPrevious.html) center left no-repeat;cursor:pointer}
+div.facebook .pp_bottom .pp_left{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/sprite.html) -88px -80px no-repeat}
+div.facebook .pp_bottom .pp_middle{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/contentPatternBottom.html) top left repeat-x}
+div.facebook .pp_bottom .pp_right{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/sprite.html) -110px -80px no-repeat}
+div.pp_pic_holder a:focus{outline:none;}
+div.pp_overlay{background:#000;display:none;left:0;position:absolute;top:0;width:100%;z-index:9500}
+div.pp_pic_holder{display:none;position:absolute;width:100px;z-index:10000}
+.pp_content{height:40px;min-width:40px}
+* html .pp_content{width:40px}
+.pp_content_container{position:relative;text-align:left;width:100%}
+.pp_content_container .pp_left{padding-left:20px}
+.pp_content_container .pp_right{padding-right:20px}
+.pp_content_container .pp_details{float:left;margin:10px 0 2px}
+.pp_description{display:none;margin:0}
+.pp_social{float:left;margin:0}
+.pp_social .facebook{float:left;margin-left:5px;overflow:hidden;width:55px}
+.pp_social .twitter{float:left}
+.pp_nav{clear:right;float:left;margin:3px 10px 0 0}
+.pp_nav p{float:left;margin:2px 4px;white-space:nowrap}
+.pp_nav .pp_play,.pp_nav .pp_pause{float:left;margin-right:4px;text-indent:-10000px}
+a.pp_arrow_previous,a.pp_arrow_next{display:block;float:left;height:15px;margin-top:3px;overflow:hidden;text-indent:-10000px;width:14px}
+.pp_hoverContainer{position:absolute;top:0;width:100%;z-index:2000}
+.pp_gallery{display:none;left:50%;margin-top:-50px;position:absolute;z-index:10000}
+.pp_gallery div{float:left;overflow:hidden;position:relative}
+.pp_gallery ul{float:left;height:35px;margin:0 0 0 5px;padding:0;position:relative;white-space:nowrap}
+.pp_gallery ul a{border:1px rgba(0,0,0,0.5) solid;display:block;float:left;height:33px;overflow:hidden}
+.pp_gallery ul a img{border:0}
+.pp_gallery li{display:block;float:left;margin:0 5px 0 0;padding:0}
+.pp_gallery li.default a{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/facebook/default_thumbnail.html) 0 0 no-repeat;display:block;height:33px;width:50px}
+.pp_gallery .pp_arrow_previous,.pp_gallery .pp_arrow_next{margin-top:7px!important}
+a.pp_next{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/btnNext.html) 10000px 10000px no-repeat;display:block;float:right;height:100%;text-indent:-10000px;width:49%}
+a.pp_previous{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/btnNext.html) 10000px 10000px no-repeat;display:block;float:left;height:100%;text-indent:-10000px;width:49%}
+a.pp_expand,a.pp_contract{cursor:pointer;display:none;height:20px;position:absolute;right:30px;text-indent:-10000px;top:10px;width:20px;z-index:20000}
+a.pp_close{display:block;line-height:22px;position:absolute;right:0;text-indent:-10000px;top:0}
+.pp_loaderIcon{display:block;height:24px;left:50%;margin:-12px 0 0 -12px;position:absolute;top:50%;width:24px}
+#pp_full_res{line-height:1!important}
+#pp_full_res .pp_inline{text-align:left}
+#pp_full_res .pp_inline p{margin:0 0 15px}
+div.ppt{color:#fff;display:none;font-size:17px;margin:0 0 5px 15px;z-index:9999}
+div.pp_default .pp_content,div.light_rounded .pp_content{background-color:#fff}
+div.pp_default #pp_full_res .pp_inline,div.light_rounded .pp_content .ppt,div.light_rounded #pp_full_res .pp_inline,div.light_square .pp_content .ppt,div.light_square #pp_full_res .pp_inline,div.facebook .pp_content .ppt,div.facebook #pp_full_res .pp_inline{color:#000}
+div.pp_default .pp_gallery ul li a:hover,div.pp_default .pp_gallery ul li.selected a,.pp_gallery ul a:hover,.pp_gallery li.selected a{border-color:#fff}
+div.pp_default .pp_details,div.light_rounded .pp_details,div.dark_rounded .pp_details,div.dark_square .pp_details,div.light_square .pp_details,div.facebook .pp_details{position:relative}
+div.light_rounded .pp_top .pp_middle,div.light_rounded .pp_content_container .pp_left,div.light_rounded .pp_content_container .pp_right,div.light_rounded .pp_bottom .pp_middle,div.light_square .pp_left,div.light_square .pp_middle,div.light_square .pp_right,div.light_square .pp_content,div.facebook .pp_content{background:#fff}
+div.light_rounded .pp_description,div.light_square .pp_description{margin-right:85px}
+div.light_rounded .pp_gallery a.pp_arrow_previous,div.light_rounded .pp_gallery a.pp_arrow_next,div.dark_rounded .pp_gallery a.pp_arrow_previous,div.dark_rounded .pp_gallery a.pp_arrow_next,div.dark_square .pp_gallery a.pp_arrow_previous,div.dark_square .pp_gallery a.pp_arrow_next,div.light_square .pp_gallery a.pp_arrow_previous,div.light_square .pp_gallery a.pp_arrow_next{margin-top:12px!important}
+div.light_rounded .pp_arrow_previous.disabled,div.dark_rounded .pp_arrow_previous.disabled,div.dark_square .pp_arrow_previous.disabled,div.light_square .pp_arrow_previous.disabled{background-position:0 -87px;cursor:default}
+div.light_rounded .pp_arrow_next.disabled,div.dark_rounded .pp_arrow_next.disabled,div.dark_square .pp_arrow_next.disabled,div.light_square .pp_arrow_next.disabled{background-position:-22px -87px;cursor:default}
+div.light_rounded .pp_loaderIcon,div.light_square .pp_loaderIcon{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/light_rounded/loader.html) center center no-repeat}
+div.dark_rounded .pp_top .pp_middle,div.dark_rounded .pp_content,div.dark_rounded .pp_bottom .pp_middle{background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/mixitup/prettyPhoto/dark_rounded/contentPattern.html) top left repeat}
+div.dark_rounded .currentTextHolder,div.dark_square .currentTextHolder{color:#c4c4c4}
+div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline{color:#fff}
+.pp_top,.pp_bottom{height:20px;position:relative}
+* html .pp_top,* html .pp_bottom{padding:0 20px}
+.pp_top .pp_left,.pp_bottom .pp_left{height:20px;left:0;position:absolute;width:20px}
+.pp_top .pp_middle,.pp_bottom .pp_middle{height:20px;left:20px;position:absolute;right:20px}
+* html .pp_top .pp_middle,* html .pp_bottom .pp_middle{left:0;position:static}
+.pp_top .pp_right,.pp_bottom .pp_right{height:20px;left:auto;position:absolute;right:0;top:0;width:20px}
+.pp_fade,.pp_gallery li.default a img{display:none}.clearout{height:20px;clear:both;}
+#flexiselDemo3{display:none;}
+.nbs-flexisel-container{position:relative;max-width:100%;}
+.nbs-flexisel-ul{position:relative;width:99999px;margin:0px;padding:0px;list-style-type:none;text-align:center;}
+.nbs-flexisel-inner{overflow:hidden;float:left;width:100%;margin-top:20px;}
+.nbs-flexisel-item{float:left;margin:0px 2px 0 0;padding:0px;cursor:pointer;position:relative;line-height:0px;list-style:none;}
+.nbs-flexisel-item img{width:100%;cursor:pointer;position:relative;max-width:196px;max-height:109px;border:2px solid #ffffff;}
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right{width:30px;height:30px;position:absolute;cursor:pointer;z-index:100;top:-100px !important;display:none;}
+.nbs-flexisel-nav-left{left:10px;background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/button-previous.html) no-repeat center center #5c5c5c;}
+.nbs-flexisel-nav-right{right:5px;background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/button-next.html) no-repeat center center #5c5c5c;}
+.nbs-flexisel-nav-left:hover, .nbs-flexisel-nav-right:hover { background-color:#31cafd;}.addtoany_content{clear:both;margin:16px 0}
+.addtoany_header{margin:0 0 16px}
+.addtoany_list{display:inline;line-height:16px}
+.addtoany_list a,.widget .addtoany_list a{border:0;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle}
+.addtoany_list a img{border:0;display:inline-block;opacity:1;overflow:hidden;vertical-align:baseline}
+.addtoany_list a span{display:inline-block;float:none}
+.addtoany_list.a2a_kit_size_32 a{font-size:32px}
+.addtoany_list.a2a_kit_size_32 a:not(.addtoany_special_service)>span{height:32px;line-height:32px;width:32px}
+.addtoany_list a:not(.addtoany_special_service)>span{border-radius:4px;display:inline-block;opacity:1}
+.addtoany_list a .a2a_count{position:relative;vertical-align:top}
+.addtoany_list a:hover,.widget .addtoany_list a:hover{border:0;box-shadow:none}
+.addtoany_list a:hover img,.addtoany_list a:hover span{opacity:.7}
+.addtoany_list a.addtoany_special_service:hover img,.addtoany_list a.addtoany_special_service:hover span{opacity:1}
+.addtoany_special_service{display:inline-block;vertical-align:middle}
+.addtoany_special_service a,.addtoany_special_service div,.addtoany_special_service div.fb_iframe_widget,.addtoany_special_service iframe,.addtoany_special_service span{margin:0;vertical-align:baseline!important}
+.addtoany_special_service iframe{display:inline;max-width:none}
+a.addtoany_share.addtoany_no_icon span.a2a_img_text{display:none}
+a.addtoany_share img{border:0;width:auto;height:auto}
