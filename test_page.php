@@ -18,7 +18,8 @@ define('DB_DATABASE', 'test');
 
   $database = mysqli_select_db($connection, DB_DATABASE);
 
-  /* Ensure that the WARRANTY table exiWarrantyVerifyWARRANTYTable($connection, DB_DATABASE);
+  /* Ensure that the WARRANTY table exit. */
+  VerifyWARRANTYTable($connection, DB_DATABASE);
 
   /* If input fields are populated, add a row to the WARRANTY table. */
   $customer_name = htmlentities($_POST['NAME']);
@@ -148,7 +149,7 @@ function Addcustomer($connection, $name, $phone, $email, $invoice, $address) {
    $i = mysqli_real_escape_string($connection, $invoice);
    $a = mysqli_real_escape_string($connection, $address);
 
-   $query = "INSERT INTO WARRANTY (NAME, PHONE, EMAIL, INVOICE, ADDRESS,) VALUES ('$n','$p','$e','$i', '$a');";
+   $query = "INSERT INTO WARRANTY (NAME, PHONE, EMAIL, INVOICE, ADDRESS) VALUES ('$n','$p','$e','$i', '$a');";
 
    if(!mysqli_query($connection, $query)) echo("<p>Error adding customer data.</p>");
 }

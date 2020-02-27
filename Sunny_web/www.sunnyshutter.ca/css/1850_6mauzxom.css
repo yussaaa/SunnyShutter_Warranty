@@ -71,12 +71,12 @@ h2.section_title::after{content:"";position:absolute;bottom:0;left:0;right:0;mar
 .hright-content a{color:#b59a77;}
 .hright-content span.bold-text{font:700 16px 'Montserrat';color:#ffffff;}
 .hright-content span.small-text{font:400 13px 'Montserrat';color:#b59a77;}
-.navigation{position:absolute;background-color:#c49454;left:0;right:0;z-index:6;top:75px;-ms-transform:skewX(-15deg);-webkit-transform:skewX(-15deg);transform:skewX(-15deg);padding-left:15px;}
+.navigation{position:absolute;background-color:#c49454;left:0;right:0;z-index:6;top:75px;-ms-transform:skewX(-15deg);-webkit-transform:skewX(-15deg);transform:skewX(-15deg);padding-left:px;}
 #headernav{border-top:1px solid #1c1006;border-bottom:1px solid #1c1006;}
 .toggle{display:block;}
 .toggle a{width:auto;color:#ffffff;background:url(../../sunnyshutter.ca/wp-content/themes/carpenter-pro/images/mobile_nav_right.html) no-repeat right center #0e2d45;padding:10px 25px;margin-top:5px;font-size:16px;text-align:left;}
 .toggle a:hover{color:#ffffff !important;}
-.sitenav{padding:0;position:relative;z-index:9999;float:left;}
+.sitenav{padding-top:25px; position:relative;z-index:9999;float:left;}
 .sitenav ul{margin:0;padding:0;font-family:'Montserrat';font-size:15px;font-weight:700;text-transform:uppercase;}
 .sitenav ul li{display:table-cell;position:relative;}
 .sitenav ul li a{padding:20px 15px;display:block;text-align:center;transition:0.6s;-moz-transition:0.6s;-webkit-transition:0.6s;-o-transition:0.6s;-ms-transform:skewX(15deg);-webkit-transform:skewX(15deg);transform:skewX(15deg);}
